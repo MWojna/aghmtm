@@ -1,0 +1,57 @@
+Zad.1
+The Length of N_18_MM should be < = 50.0 um !
+The Length of N_18_MM should be > = 0.18 um !
+
+The Width of N_18_MM should be > = 0.24 um ! 
+The Width of N_18_MM should be < = 100.0 um ! 
+
+zmiana o 1n
+
+______________________________________________________________________
+ron                   4.421K        
+rout                 66.53K         
+gds                  15.03u         
+gm                    1.1m          
+self_gain            73.2           
+region                2             
+______________________________________________________________________
+
+Zad.2
+jest to rezystancja ds
+ron w liniowym
+rout w nasyceniu
+
+Zad.3
+gds=1/rout
+
+Zad.4
+tak, wzmocnienie wewnętrzene
+
+Zad.5
+stan pracy tranzystora
+0 - cut-off
+1 - liniowy
+2 - nasycenie
+3 - podprogowy
+4 - przebicia
+
+Zad.6
+0.6v
+
+Zad.7
+0.6 - 0.4172
+0.8 - 0.6172
+
+Zad.8
+msg
+
+Zad.9
+gm=2id/(vgs-vth)
+
+Zad.10
+im większe W/L tym większe gm
+im większe W/L tym mniejsze rout
+
+Zad.11
+1.365G
+ft=g/(2*pi*cgs)

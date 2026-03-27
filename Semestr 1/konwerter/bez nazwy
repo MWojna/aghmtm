@@ -1,0 +1,7 @@
+#!/bin/bash
+
+pobierz() {
+  local x=$1
+  local y=$2
+  awk -v x="$x" -v y="$y" '{print $x $y}' "$plik_danych"
+}

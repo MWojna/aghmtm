@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny2313"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_22\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_22\cw_22.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn2313def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_22\Debug/cw_22.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>cw_22.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>cw_22.map</FILE>
+  <FILE>cw_22.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MainLoop><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_22\cw_22.asm</FILE><LINE>4</LINE></MainLoop>
+  <DelayNCycles><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_22\cw_22.asm</FILE><LINE>6</LINE></DelayNCycles>
+  <DelayInMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_22\cw_22.asm</FILE><LINE>11</LINE></DelayInMs>
+  <oloop><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_22\cw_22.asm</FILE><LINE>12</LINE></oloop>
+  <iloop><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_22\cw_22.asm</FILE><LINE>14</LINE></iloop>
+ </LABELS>
+</ASSEMBLER_INFO>

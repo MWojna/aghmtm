@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\konwersje2.o"
+--strict --scatter ".\Konwersje2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Konwersje2.map" -o .\Konwersje2.axf

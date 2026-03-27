@@ -1,0 +1,40 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny2313A"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn2313Adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\Debug/K1MN.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>K1MN.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>K1MN.map</FILE>
+  <FILE>K1MN.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_main><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>68</LINE></_main>
+  <_Timer_ISR><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>45</LINE></_Timer_ISR>
+  <_ExtInt_ISR><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>35</LINE></_ExtInt_ISR>
+  <NoOverflow><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>41</LINE></NoOverflow>
+  <_NumberToDigits><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>106</LINE></_NumberToDigits>
+  <MainLoop><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>95</LINE></MainLoop>
+  <DigitTo7segCode><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>168</LINE></DigitTo7segCode>
+  <DealyInMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>180</LINE></DealyInMs>
+  <_Divide><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>149</LINE></_Divide>
+  <Div><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>153</LINE></Div>
+  <skip_div><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>160</LINE></skip_div>
+  <Table><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>167</LINE></Table>
+  <DealyLoop><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>184</LINE></DealyLoop>
+  <OneMsLoop><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>191</LINE></OneMsLoop>
+  <L><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\K1MN\K1MN.asm</FILE><LINE>195</LINE></L>
+ </LABELS>
+</ASSEMBLER_INFO>

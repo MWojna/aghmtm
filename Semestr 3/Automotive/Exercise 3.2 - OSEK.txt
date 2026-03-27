@@ -1,0 +1,81 @@
+Exercise 3.2 - OSEK
+
+
+
+1
+TA_LOG_INPUTS
+TA_ANA_INPUTS
+TA_CMD_AWNING
+TA_IDL
+
+
+
+2
+periodical 100ms alarm for analog inputs
+periodical 50ms alarm for logic inputs
+event button open
+event button close
+event rain change
+event wind change
+event day/night cycle change
+event end of task
+
+
+
+3
+TASK(TA_IDL) {
+    SetRelAlarm(AL_TA_ANA_INPUTS,100,100);
+    SetRelAlarm(AL_TA_LOG_INPUTS,50,50);
+    ActivateTask(TA_CMD_AWNING);
+
+    while (1) {
+    }
+
+    CancelAlarm(AL_TA_ANA_INPUTS);
+    CancelAlarm(AL_TA_LOG_INPUTS);
+
+    Setevent(TA_CMD_AWNING, EV_END_TA_CMD_AWNING);
+    TerminateTask();
+}
+
+
+
+4
+TASK(TA_ANA_INPUTS) {
+
+    tWORD Luminosity;
+    tWORD LUM;
+    static tWORD Prev_LUM
+
+    Luminosity = ReadLuminosity();
+    LUM = ConversionDayNight(Luminosity);
+    if(Prev_LUM != LUM) {
+        Prev_LUM = LUM
+        SetEvent(TA_CMD_AWNING, EV_CH_LUM);
+    }
+    TerminateTask();
+}
+
+
+
+toakuratidknieufalbymtemu
+
+#define STORM_THRESHOLD 80
+#define DARK_THRESHOLD 20
+
+TASK(TA_CMD_AWNING) {
+    WaitEvent(EV_ANA_READY | EV_LOG_READY);
+
+    if (buttonOpenPressed) {
+        if (!isRaining && lightLevel > DARK_THRESHOLD && windSpeed < STORM_THRESHOLD) {
+            OpenAwning();
+        } else {
+        }
+    }
+
+    if (buttonClosePressed) {
+        CloseAwning();
+    }
+
+    TerminateTask();
+}

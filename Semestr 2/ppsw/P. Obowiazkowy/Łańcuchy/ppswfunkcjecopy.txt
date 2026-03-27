@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void copyString(const char cSource[], char cDestination[]) {
+		unsigned char cLoopCounter;
+    for (cLoopCounter = 0; cSource[cLoopCounter] != NULL; cLoopCounter++) {
+        cDestination[cLoopCounter] = cSource[cLoopCounter];
+        if (cSource[cLoopCounter + 1] == NULL) { // Upewnienie sie, ze dodajemy znak NULL
+            cDestination[cLoopCounter + 1] = NULL;
+        }
+    }
+}
+
+int main() {
+    const char cSource[] = "Testowy lancuch znakow";
+    char cDestination[100]; // Pamietaj o odpowiednim rozmiarze
+
+    copyString(cSource, cDestination);
+
+    printf("Source: %s\n", cSource);
+    printf("Destination: %s\n", cDestination);
+
+    return 0;
+}

@@ -1,0 +1,4 @@
+Dependencies for Project 'LPC2131', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x51C80D6E)()
+F (.\ARM.s)(0x691DC21A)()
+F (.\LPC213x.s)(0x691892F2)()

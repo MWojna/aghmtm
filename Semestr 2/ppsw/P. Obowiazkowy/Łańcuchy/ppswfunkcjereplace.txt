@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void replaceChar(char cStr[], char cOldChar, char cNewChar) {
+		unsigned char cLoopCounter;
+    for (cLoopCounter = 0; cStr[cLoopCounter] != NULL; cLoopCounter++) {
+        if (cStr[cLoopCounter] == cOldChar) {
+            cStr[cLoopCounter] = cNewChar;
+        }
+    }
+    printf("Modified String: %s\n", cStr);
+}
+
+int main() {
+    char cStr[] = "Hello, World!";
+    char cOldChar = 'o';
+    char cNewChar = 'x';
+
+    printf("Original String: %s\n", cStr);
+
+    replaceChar(cStr, cOldChar, cNewChar);
+
+    return 0;
+}

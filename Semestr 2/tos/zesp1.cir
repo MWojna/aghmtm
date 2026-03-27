@@ -1,0 +1,24 @@
+Zesp 1
+
+R1 1 0 5
+R2 4 0 5
+
+*C1 5 2 0.00159
+
+L1 2 3 0.159
+
+V1 2 1 AC 20
+V2 4 5 AC 10 -90
+V3 4 3 AC 10 90
+
+*RTH 5 2 1f
+
+ITH 5 2 0
+
+I3 0 4 AC 5
+
+.AC LIN 1 10 10
+.PRINT AC V(2,5)
+*VM(C1)
+.TF V(2,5) ITH
+.END

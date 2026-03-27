@@ -1,0 +1,16 @@
+Kolos2zad1
+
+.LIB "EVAL_TOS.LIB"
+
+Xwo IN_P IN_N VCC VEE OUT TL082
+
+VCC VCC 0 15
+VEE 0 VEE 15
+V_P IN_P 0 0
+V_N IN_N 0 0
+Vr OUT 0 1
+
+*.AC DEC 1k 1 1k
+.TF V(Vr) Vr
+.PROBE
+.END

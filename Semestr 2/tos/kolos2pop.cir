@@ -1,0 +1,23 @@
+Kolos 2 pop
+
+.LIB "EVAL_TOS.LIB"
+
+X IN_P IN_N VCC VEE OUT TL082
+VCC VCC 0 15
+VEE 0 VEE 15
+
+V_P IN_P 0 AC 1
+V_N IN_N 0 0
+
+Vth OUT 0 1
+
+*.DC V_P -150u 150u 1u
+*.AC DEC 1k 1f 1k.
+.TF V[OUT] Vth
+.PROBE
+.END
+*zakres wejsciowy: -70u - 50u
+*zakres wyjsciowy: -13 - 13
+*k_v: 229.422k
+*3db cutoff: 14.98698
+*r_out: 3.010E+02

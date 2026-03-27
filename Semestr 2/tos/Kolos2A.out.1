@@ -1,0 +1,39 @@
+
+**** 04/07/25 14:12:23 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2A
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+.LIB "EVAL_TOS.LIB"
+
+Xtrans IN1 0 OUT1 0 OUT3 TX_I
+Xzener 0 2 ZENER_I
+
+V1 3 0 SIN 0 120 60
+Rv 3 IN1 1f
+
+R1 1 2 191
+RL 2 0 150
+
+C1 1 0 {c}
+*.PARAM c = 520u
+.PARAM c = 3.8
+*.STEP PARAM c 3.5 4 0.1
+
+D1 OUT1 1 D1N4148
+D2 OUT3 1 D1N4148
+
+.TRAN 1m 100u 0 1u
+---------$
+ERROR(ORPSIM-16106): Invalid value
+.PROBE
+.END
+

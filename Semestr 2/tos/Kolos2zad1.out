@@ -1,0 +1,142 @@
+
+**** 04/07/25 13:42:45 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2zad1
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+.LIB "EVAL_TOS.LIB"
+
+Xwo IN_P IN_N VCC VEE OUT TL082
+
+VCC VCC 0 15
+VEE 0 VEE 15
+V_P IN_P 0 0
+V_N IN_N 0 0
+Vr OUT 0 1
+
+*.AC DEC 1k 1 1k
+.TF V(Vr) Vr
+.PROBE
+.END
+
+**** 04/07/25 13:42:45 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2zad1
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Xwo.DX          
+          IS  800.000000E-18 
+
+
+**** 04/07/25 13:42:45 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2zad1
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Xwo.JX          
+               PJF             
+         VTO   -1            
+        BETA  270.100000E-06 
+          IS   15.000000E-12 
+
+
+**** 04/07/25 13:42:45 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2zad1
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT)    1.0000  (  VCC)   15.0000  (  VEE)  -15.0000  ( IN_N)    0.0000      
+
+( IN_P)    0.0000  (Xwo.6)-356.4E-06  (Xwo.7)    1.7559  (Xwo.8)    1.7559      
+
+(Xwo.9)    0.0000  (Xwo.10)    -.3986 (Xwo.11)  -14.6550 (Xwo.12)  -14.6550     
+
+(Xwo.53)   12.8000 (Xwo.54)  -12.8000 (Xwo.90)    5.0390 (Xwo.91)   25.0000     
+
+(Xwo.92)  -25.0000 (Xwo.99)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    VCC         -1.419E-02
+    VEE         -1.419E-02
+    V_P         -4.505E-11
+    V_N         -4.505E-11
+    Vr           5.039E-03
+    Xwo.VB      -3.564E-09
+    Xwo.VC       1.180E-11
+    Xwo.VE       1.380E-11
+    Xwo.VLIM     5.039E-03
+    Xwo.VLP     -1.996E-11
+    Xwo.VLN     -3.004E-11
+
+    TOTAL POWER DISSIPATION   4.21E-01  WATTS
+
+
+
+
+
+
+ ****     SMALL-SIGNAL CHARACTERISTICS
+
+
+      V(Vr)/Vr =  1.000E+00
+
+      INPUT RESISTANCE AT Vr =  3.010E+02
+
+      OUTPUT RESISTANCE AT V(Vr) =  0.000E+00
+
+
+          JOB CONCLUDED
+
+**** 04/07/25 13:42:45 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2zad1
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

@@ -1,0 +1,21 @@
+*_smn_descriptioninfo
+*NPN General Purpose Transistor 65V .1A .25W
+*_smn_enddescriptioninfo
+*_smn_packageinfo
+*SOT-23
+*_smn_endpackageinfo
+*_smn_nodesinfo
+*shape NPN 
+*_smn_endnodesinfo
+*_smn_componenttype
+*BJT NPN
+*_smn_endcomponenttype
+
+
+
+
+
+.MODEL BC846 NPN(  BF=324.4 BR=8.29 CJC=3.347E-12 CJE=1.244E-11 FC=0.979 IKF=0.109 IKR=0.09 IRB=5E-06 IS=1.822E-14 ISC=9.982E-12 ISE=2.894E-16 ITF=0.3131 MJC=0.391 MJE=0.3656 MJS=0.333 NC=1.763 NE=1.4 NF=0.9932 NK=500M NR=0.9931 RB=10 RBM=5 RC=0.7014 RE=0.649 TF=4.908E-10 TR=9E-08 VAF=82 VAR=17.9 VJC=0.5463 VJE=0.7579 VTF=2.927 XCJC=0.6193 XTF=9.51 )
+
+
+.END

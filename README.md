@@ -1,2 +1,0 @@
-# aghmtm
-YOGA/KRUX integration

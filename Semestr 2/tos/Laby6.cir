@@ -1,0 +1,28 @@
+Laby6
+
+.LIB "EVAL_TOS.LIB"
+
+Vdd VDD 0 5
+Vin IN 0 SIN 4.1826 {amp} 10k ; Vin IN 0 3.5 AC 1
+
+I1 VDD 1 1u
+
+M1 1 1 0 0 NMOS0P5 W=5u L=2u
+M2 OUT 1 0 0 NMOS0P5 W=5u L=2u
+M3 OUT IN VDD VDD PMOS0P5 W=100u L=1u
+
+.PARAM amp = 0
+.STEP PARAM amp 0 10m 1m
+
+*.DC Vin 4.15 4.2 0.1m
+*.AC DEC 100 1f 100T
+.TRAN 0 0.5m 0 1u
+.FOUR 10k V[OUT]
+.PROBE
+.END
+
+*3.5V - odciêcia/4.5V - liniowy
+*Vout=2.5V dla Vin=4.1826
+*max kv=-729.75982/kv w ^=-540.108
+*3db cutoff = 997.94688k/3db cutoff highpass = 2.18625g
+*THD<5% dla 60mV ampl?????? almbo 2m???????

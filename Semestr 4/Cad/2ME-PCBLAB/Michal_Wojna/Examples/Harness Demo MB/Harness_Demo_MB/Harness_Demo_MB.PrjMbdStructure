@@ -1,0 +1,10 @@
+Record=DiagramHierarchy|SourceDocument=Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=4|Source=..\Harness_Demo_PCB_D\Harness_Demo_PCB_D.PrjPcb
+Record=SubProject|SourceDocument=Schematic.MbsDoc|ProjectPath=..\Harness_Demo_PCB_D\Harness_Demo_PCB_D.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=3|Source=..\Harness_Demo_PCB_C\Harness_Demo_PCB_C.PrjPcb
+Record=SubProject|SourceDocument=Schematic.MbsDoc|ProjectPath=..\Harness_Demo_PCB_C\Harness_Demo_PCB_C.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\Harness_Demo_PCB_B\Harness_Demo_PCB_B.PrjPcb
+Record=SubProject|SourceDocument=Schematic.MbsDoc|ProjectPath=..\Harness_Demo_PCB_B\Harness_Demo_PCB_B.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=5|Source=..\Harness_Demo_PCB_E\Harness_Demo_PCB_E.PrjPcb
+Record=SubProject|SourceDocument=Schematic.MbsDoc|ProjectPath=..\Harness_Demo_PCB_E\Harness_Demo_PCB_E.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Schematic.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\Harness_Demo_PCB_A\Harness_Demo_PCB_A.PrjPcb
+Record=SubProject|SourceDocument=Schematic.MbsDoc|ProjectPath=..\Harness_Demo_PCB_A\Harness_Demo_PCB_A.PrjPcb

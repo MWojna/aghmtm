@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny2313A"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_39\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_39\cw_39.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn2313Adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_39\Debug/cw_39.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>cw_39.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>cw_39.map</FILE>
+  <FILE>cw_39.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <DigitTo7segCode><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_39\cw_39.asm</FILE><LINE>75</LINE></DigitTo7segCode>
+  <Main><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_39\cw_39.asm</FILE><LINE>50</LINE></Main>
+  <DelayInMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_39\cw_39.asm</FILE><LINE>56</LINE></DelayInMs>
+  <L2><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_39\cw_39.asm</FILE><LINE>60</LINE></L2>
+  <DelayOneMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_39\cw_39.asm</FILE><LINE>66</LINE></DelayOneMs>
+  <L1><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_39\cw_39.asm</FILE><LINE>69</LINE></L1>
+  <Table><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_39\cw_39.asm</FILE><LINE>87</LINE></Table>
+ </LABELS>
+</ASSEMBLER_INFO>

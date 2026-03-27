@@ -1,0 +1,100 @@
+#!/bin/bash
+
+########################################
+# 1. Sprawdzenie liczby argumentów
+########################################
+if [ $# -ne 1 ]; then
+    echo "usage: $0 nazwa_pliku"
+    exit
+fi
+
+########################################
+# 3. Sprawdzenie istnienia pliku
+########################################
+if [ ! -f "$1" ]; then
+    echo "plik $1 nie istnieje"
+    exit
+fi
+
+########################################
+# 4. Wczytanie danych z pliku
+#    i weryfikacja liczby kolumn
+########################################
+# Tablica przechowująca wszystkie wartości
+data=()
+row_count=0
+col_count=0
+
+while IFS= read -r line
+do
+    # Pomijamy puste linie (gdyby się trafiły)
+    [ -z "$line" ] && continue
+
+    # Zwiększamy licznik wierszy
+    ((row_count++))
+
+    # Rozbijamy aktualny wiersz na słowa (liczby)
+    row=($line)
+
+    # Sprawdzamy, czy to pierwszy wiersz
+    if [ $row_count -eq 1 ]; then
+        # Ustalamy liczbę kolumn na podstawie pierwszego wiersza
+        col_count=${#row[@]}
+    else
+        # Dla kolejnych wierszy sprawdzamy, czy liczba kolumn się zgadza
+        if [ ${#row[@]} -ne $col_count ]; then
+            echo "Błąd: niespójna liczba kolumn w wierszu $row_count."
+            exit 1
+        fi
+    fi
+
+    # Zapisujemy wartości do jednej wspólnej tablicy
+    for val in "${row[@]}"; do
+        data+=("$val")
+    done
+
+done < "$1"
+
+########################################
+# 5. Wypisanie wymiarów macierzy
+########################################
+echo "wymiary x = $col_count (kolumny) y = $row_count (wiersze)"
+
+########################################
+# 6. Wyświetlenie danych w formacie x,y,wartość
+########################################
+# Indeksy: r – wiersz (0..row_count-1), c – kolumna (0..col_count-1)
+for ((r=0; r<row_count; r++)); do
+    for ((c=0; c<col_count; c++)); do
+        index=$((r*col_count + c))
+        value=${data[$index]}
+        echo "$((c+1)),$((r+1)),$value"
+    done
+done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pobierz() {
+  local x=$1
+  local y=$2
+  awk -v x="$x" -v y="$y" 'NR==y {print $x}' "/home/michal/konwerter/dane"
+}
+
+pobierz 1 2
+
+
+
+
+

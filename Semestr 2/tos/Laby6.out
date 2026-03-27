@@ -1,0 +1,905 @@
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+.LIB "EVAL_TOS.LIB"
+
+Vdd VDD 0 5
+Vin IN 0 SIN 4.1826 {amp} 10k ; Vin IN 0 3.5 AC 1
+
+I1 VDD 1 1u
+
+M1 1 1 0 0 NMOS0P5 W=5u L=2u
+M2 OUT 1 0 0 NMOS0P5 W=5u L=2u
+M3 OUT IN VDD VDD PMOS0P5 W=100u L=1u
+
+.PARAM amp = 0
+.STEP PARAM amp 0 10m 1m
+
+*.DC Vin 4.15 4.2 0.1m
+*.AC DEC 100 1f 100T
+.TRAN 0 0.5m 0 1u
+.FOUR 10k V[OUT]
+.PROBE
+.END
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               NMOS0P5         PMOS0P5         
+               NMOS            PMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+          LD   80.000000E-09   90.000000E-09 
+         VTO     .7             -.8          
+          KP  167.204900E-06   41.801210E-06 
+       GAMMA     .5              .45         
+         PHI     .8              .75         
+      LAMBDA     .1              .2          
+          IS   10.000000E-15   10.000000E-15 
+          JS   10.000000E-09    5.000000E-09 
+          PB     .9              .9          
+        PBSW     .9              .9          
+          CJ  570.000000E-06  930.000000E-06 
+        CJSW  120.000000E-12  170.000000E-12 
+        MJSW     .4              .35         
+        CGSO  400.000000E-12  350.000000E-12 
+        CGDO  400.000000E-12  350.000000E-12 
+        CGBO  380.000000E-12  380.000000E-12 
+         TOX    9.500000E-09    9.500000E-09 
+          XJ    0               0            
+          UO  460             115            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    0     
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)     .7639  (   IN)    4.1826  (  OUT)    2.4848  (  VDD)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vdd         -2.160E-06
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.08E-05  WATTS
+
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    0     
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT)
+
+
+
+ DC COMPONENT =   2.4848E+00
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   5.4865E-16   1.0000E+00  -1.7263E+02   0.0000E+00
+     2    2.0000E+04   4.3559E-16   7.9393E-01  -8.1584E+01   2.6368E+02
+     3    3.0000E+04   3.6835E-16   6.7137E-01  -1.3680E+00   5.1653E+02
+     4    4.0000E+04   5.2368E-16   9.5449E-01  -2.3767E+01   6.6676E+02
+     5    5.0000E+04   5.2639E-16   9.5943E-01  -1.4059E+02   7.2257E+02
+     6    6.0000E+04   1.8016E-15   3.2837E+00  -1.0405E+01   1.0254E+03
+     7    7.0000E+04   1.7159E-15   3.1275E+00  -2.0559E+00   1.2064E+03
+     8    8.0000E+04   5.6187E-15   1.0241E+01   3.8072E+01   1.4191E+03
+     9    9.0000E+04   1.3759E-15   2.5078E+00   9.4399E+01   1.6481E+03
+
+
+     TOTAL HARMONIC DISTORTION =   1.1604E+03 PERCENT
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    1.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)     .7639  (   IN)    4.1826  (  OUT)    2.4848  (  VDD)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vdd         -2.160E-06
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.08E-05  WATTS
+
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    1.0000E-03
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT)
+
+
+
+ DC COMPONENT =   2.4733E+00
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   5.3957E-01   1.0000E+00   1.7943E+02   0.0000E+00
+     2    2.0000E+04   1.1591E-02   2.1482E-02   8.7749E+01  -2.7110E+02
+     3    3.0000E+04   1.4994E-04   2.7788E-04  -7.8771E-01  -5.3907E+02
+     4    4.0000E+04   4.2084E-05   7.7996E-05  -1.2508E+02  -8.4279E+02
+     5    5.0000E+04   5.5691E-05   1.0321E-04   1.6180E+02  -7.3533E+02
+     6    6.0000E+04   5.3168E-05   9.8537E-05   5.9374E+01  -1.0172E+03
+     7    7.0000E+04   3.5008E-05   6.4881E-05   1.1439E+01  -1.2445E+03
+     8    8.0000E+04   3.2128E-05   5.9544E-05  -7.4516E+01  -1.5099E+03
+     9    9.0000E+04   4.2763E-05   7.9253E-05   1.4063E+02  -1.4742E+03
+
+
+     TOTAL HARMONIC DISTORTION =   2.1485E+00 PERCENT
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    2.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)     .7639  (   IN)    4.1826  (  OUT)    2.4848  (  VDD)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vdd         -2.160E-06
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.08E-05  WATTS
+
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    2.0000E-03
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT)
+
+
+
+ DC COMPONENT =   2.4386E+00
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   1.0814E+00   1.0000E+00   1.7942E+02   0.0000E+00
+     2    2.0000E+04   4.6113E-02   4.2642E-02   8.7884E+01  -2.7096E+02
+     3    3.0000E+04   1.0231E-03   9.4612E-04  -3.5758E+00  -5.4184E+02
+     4    4.0000E+04   5.3725E-05   4.9681E-05   4.1859E+01  -6.7583E+02
+     5    5.0000E+04   3.9339E-05   3.6378E-05  -1.6272E+02  -1.0598E+03
+     6    6.0000E+04   2.9057E-05   2.6870E-05   3.2893E+01  -1.0436E+03
+     7    7.0000E+04   4.0298E-05   3.7265E-05   1.7248E+02  -1.0835E+03
+     8    8.0000E+04   4.0971E-05   3.7888E-05   8.6363E+01  -1.3490E+03
+     9    9.0000E+04   2.9622E-05   2.7393E-05   9.3405E+00  -1.6055E+03
+
+
+     TOTAL HARMONIC DISTORTION =   4.2653E+00 PERCENT
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    3.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)     .7639  (   IN)    4.1826  (  OUT)    2.4848  (  VDD)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vdd         -2.160E-06
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.08E-05  WATTS
+
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    3.0000E-03
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT)
+
+
+
+ DC COMPONENT =   2.3809E+00
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   1.6280E+00   1.0000E+00   1.7942E+02   0.0000E+00
+     2    2.0000E+04   1.0369E-01   6.3692E-02   8.7865E+01  -2.7097E+02
+     3    3.0000E+04   3.5466E-03   2.1785E-03  -5.4925E+00  -5.4374E+02
+     4    4.0000E+04   1.5742E-04   9.6694E-05   8.5212E+01  -6.3245E+02
+     5    5.0000E+04   4.2189E-05   2.5915E-05   3.1348E+01  -8.6573E+02
+     6    6.0000E+04   8.5221E-05   5.2347E-05   1.5394E+01  -1.0611E+03
+     7    7.0000E+04   2.4745E-05   1.5200E-05  -7.7054E+01  -1.3330E+03
+     8    8.0000E+04   3.7184E-05   2.2840E-05   2.9107E+01  -1.4062E+03
+     9    9.0000E+04   3.6254E-05   2.2269E-05  -1.0779E+02  -1.7225E+03
+
+
+     TOTAL HARMONIC DISTORTION =   6.3730E+00 PERCENT
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    4.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)     .7639  (   IN)    4.1826  (  OUT)    2.4848  (  VDD)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vdd         -2.160E-06
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.08E-05  WATTS
+
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    4.0000E-03
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT)
+
+
+
+ DC COMPONENT =   2.3086E+00
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   2.1652E+00   1.0000E+00   1.7941E+02   0.0000E+00
+     2    2.0000E+04   1.6807E-01   7.7624E-02   8.7812E+01  -2.7101E+02
+     3    3.0000E+04   6.8004E-03   3.1407E-03  -1.7800E+02  -7.1622E+02
+     4    4.0000E+04   1.4346E-02   6.6257E-03   8.6708E+01  -6.3093E+02
+     5    5.0000E+04   1.2850E-02   5.9345E-03  -4.3993E+00  -9.0144E+02
+     6    6.0000E+04   1.1340E-02   5.2375E-03  -9.5081E+01  -1.1715E+03
+     7    7.0000E+04   9.8640E-03   4.5557E-03   1.7387E+02  -1.0820E+03
+     8    8.0000E+04   8.3393E-03   3.8515E-03   8.2969E+01  -1.3523E+03
+     9    9.0000E+04   6.7783E-03   3.1305E-03  -7.7828E+00  -1.6225E+03
+
+
+     TOTAL HARMONIC DISTORTION =   7.8660E+00 PERCENT
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    5.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)     .7639  (   IN)    4.1826  (  OUT)    2.4848  (  VDD)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vdd         -2.160E-06
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.08E-05  WATTS
+
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    5.0000E-03
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT)
+
+
+
+ DC COMPONENT =   2.3265E+00
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   2.4971E+00   1.0000E+00   1.7942E+02   0.0000E+00
+     2    2.0000E+04   7.4548E-02   2.9854E-02   8.6438E+01  -2.7239E+02
+     3    3.0000E+04   1.4686E-01   5.8811E-02   1.7800E+02  -3.6025E+02
+     4    4.0000E+04   1.0808E-01   4.3284E-02   8.6870E+01  -6.3079E+02
+     5    5.0000E+04   5.5969E-02   2.2414E-02  -3.8554E+00  -9.0093E+02
+     6    6.0000E+04   1.5406E-02   6.1696E-03  -9.4198E+01  -1.1707E+03
+     7    7.0000E+04   9.5908E-03   3.8408E-03  -6.2061E+00  -1.2621E+03
+     8    8.0000E+04   1.9517E-02   7.8158E-03  -9.6552E+01  -1.5319E+03
+     9    9.0000E+04   1.7979E-02   7.2001E-03   1.7298E+02  -1.4418E+03
+
+
+     TOTAL HARMONIC DISTORTION =   8.3015E+00 PERCENT
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    6.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)     .7639  (   IN)    4.1826  (  OUT)    2.4848  (  VDD)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vdd         -2.160E-06
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.08E-05  WATTS
+
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    6.0000E-03
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT)
+
+
+
+ DC COMPONENT =   2.3806E+00
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   2.7405E+00   1.0000E+00   1.7941E+02   0.0000E+00
+     2    2.0000E+04   3.9992E-02   1.4593E-02  -8.5969E+01  -4.4480E+02
+     3    3.0000E+04   2.6733E-01   9.7550E-02   1.7800E+02  -3.6024E+02
+     4    4.0000E+04   1.3567E-01   4.9504E-02   8.6775E+01  -6.3088E+02
+     5    5.0000E+04   2.3794E-02   8.6825E-03  -5.0513E+00  -9.0212E+02
+     6    6.0000E+04   3.8110E-02   1.3906E-02   8.6019E+01  -9.9047E+02
+     7    7.0000E+04   4.2387E-02   1.5467E-02  -5.5154E+00  -1.2614E+03
+     8    8.0000E+04   2.4676E-02   9.0042E-03  -9.6562E+01  -1.5319E+03
+     9    9.0000E+04   4.1977E-03   1.5317E-03  -2.7711E+00  -1.6175E+03
+
+
+     TOTAL HARMONIC DISTORTION =   1.1301E+01 PERCENT
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    7.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)     .7639  (   IN)    4.1826  (  OUT)    2.4848  (  VDD)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vdd         -2.160E-06
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.08E-05  WATTS
+
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    7.0000E-03
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT)
+
+
+
+ DC COMPONENT =   2.4095E+00
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   2.8715E+00   1.0000E+00   1.7942E+02   0.0000E+00
+     2    2.0000E+04   7.8203E-02   2.7234E-02  -8.8886E+01  -4.4773E+02
+     3    3.0000E+04   4.1258E-01   1.4368E-01   1.7807E+02  -3.6020E+02
+     4    4.0000E+04   8.5260E-02   2.9692E-02   8.5732E+01  -6.3196E+02
+     5    5.0000E+04   1.2512E-03   4.3575E-04   3.4792E+01  -8.6232E+02
+     6    6.0000E+04   9.3127E-02   3.2431E-02   8.5873E+01  -9.9066E+02
+     7    7.0000E+04   3.6308E-02   1.2644E-02  -5.6538E+00  -1.2616E+03
+     8    8.0000E+04   4.8627E-03   1.6934E-03   8.4263E+01  -1.3511E+03
+     9    9.0000E+04   2.4471E-02   8.5221E-03  -7.5616E+00  -1.6224E+03
+
+
+     TOTAL HARMONIC DISTORTION =   1.5348E+01 PERCENT
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    8.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)     .7639  (   IN)    4.1826  (  OUT)    2.4848  (  VDD)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vdd         -2.160E-06
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.08E-05  WATTS
+
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    8.0000E-03
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT)
+
+
+
+ DC COMPONENT =   2.4251E+00
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   2.9465E+00   1.0000E+00   1.7942E+02   0.0000E+00
+     2    2.0000E+04   8.6558E-02   2.9376E-02  -8.8893E+01  -4.4774E+02
+     3    3.0000E+04   5.3427E-01   1.8133E-01   1.7816E+02  -3.6012E+02
+     4    4.0000E+04   3.9013E-02   1.3240E-02   8.1953E+01  -6.3575E+02
+     5    5.0000E+04   5.1124E-02   1.7351E-02   1.7617E+02  -7.2095E+02
+     6    6.0000E+04   9.3777E-02   3.1827E-02   8.5402E+01  -9.9115E+02
+     7    7.0000E+04   3.7609E-02   1.2764E-02  -5.1162E+00  -1.2611E+03
+     8    8.0000E+04   4.9430E-02   1.6776E-02   8.5387E+01  -1.3500E+03
+     9    9.0000E+04   2.7136E-02   9.2097E-03  -8.2962E+00  -1.6231E+03
+
+
+     TOTAL HARMONIC DISTORTION =   1.8910E+01 PERCENT
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    9.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)     .7639  (   IN)    4.1826  (  OUT)    2.4848  (  VDD)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vdd         -2.160E-06
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.08E-05  WATTS
+
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =    9.0000E-03
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT)
+
+
+
+ DC COMPONENT =   2.4351E+00
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   2.9964E+00   1.0000E+00   1.7942E+02   0.0000E+00
+     2    2.0000E+04   8.6683E-02   2.8929E-02  -8.9583E+01  -4.4843E+02
+     3    3.0000E+04   6.2876E-01   2.0984E-01   1.7819E+02  -3.6008E+02
+     4    4.0000E+04   8.2322E-03   2.7474E-03   6.3144E+01  -6.5455E+02
+     5    5.0000E+04   1.1472E-01   3.8286E-02   1.7652E+02  -7.2060E+02
+     6    6.0000E+04   7.5003E-02   2.5031E-02   8.4525E+01  -9.9202E+02
+     7    7.0000E+04   2.5168E-02   8.3993E-03  -3.1758E+00  -1.2591E+03
+     8    8.0000E+04   7.0181E-02   2.3422E-02   8.4507E+01  -1.3509E+03
+     9    9.0000E+04   3.3888E-02   1.1310E-02  -6.7233E+00  -1.6215E+03
+
+
+     TOTAL HARMONIC DISTORTION =   2.1844E+01 PERCENT
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =     .01  
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)     .7639  (   IN)    4.1826  (  OUT)    2.4848  (  VDD)    5.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vdd         -2.160E-06
+    Vin          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.08E-05  WATTS
+
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM AMP =     .01  
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT)
+
+
+
+ DC COMPONENT =   2.4420E+00
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   3.0312E+00   1.0000E+00   1.7944E+02   0.0000E+00
+     2    2.0000E+04   8.3814E-02   2.7650E-02  -8.8947E+01  -4.4782E+02
+     3    3.0000E+04   7.0068E-01   2.3115E-01   1.7822E+02  -3.6009E+02
+     4    4.0000E+04   1.2786E-02   4.2181E-03  -7.1896E+01  -7.8964E+02
+     5    5.0000E+04   1.7660E-01   5.8259E-02   1.7670E+02  -7.2048E+02
+     6    6.0000E+04   5.3969E-02   1.7804E-02   8.3105E+01  -9.9351E+02
+     7    7.0000E+04   5.8338E-04   1.9246E-04   1.1820E+02  -1.1379E+03
+     8    8.0000E+04   7.2174E-02   2.3810E-02   8.4469E+01  -1.3510E+03
+     9    9.0000E+04   3.5475E-02   1.1703E-02  -6.7904E+00  -1.6217E+03
+
+
+     TOTAL HARMONIC DISTORTION =   2.4213E+01 PERCENT
+
+WARNING(ORPSIM-15676): LAMBDA for MOSFET model PMOS0P5 is unusually large and might cause non-convergence
+
+
+          JOB CONCLUDED
+
+**** 04/27/25 19:48:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Laby6
+
+
+ ****     JOB STATISTICS SUMMARY
+
+ ****     CURRENT STEP                     PARAM AMP =     .01  
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        1.25
+
+**** 04/27/25 19:48:31 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+  
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+*3.5V - odciêcia/4.5V - liniowy
+*Vout=2.5V dla Vin=4.1826
+*max kv=-729.75982/kv w ^=-540.108
+*3db cutoff = 997.94688k/3db cutoff highpass = 2.18625g
+*THD<5% dla 60mV ampl?????? almbo 2m???????
+

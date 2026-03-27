@@ -1,0 +1,1839 @@
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+.LIB "EVAL_TOS.LIB"
+
+Xzener 0 2 ZENER_II
+Xtrans IN1 IN2 OUT1 OUT2 TX_II
+
+D1 OUT1 1 D1N4148
+D2 0 OUT2 D1N4148
+D3 OUT2 1 D1N4148
+D4 0 OUT1 D1N4148
+
+C1 1 0 {c}
+.PARAM c = 500u
+.STEP PARAM c 5.1m 10m 0.1m
+
+R1 1 2 200
+RL 0 2 1k
+Rb 0 IN2 1f
+
+V1 IN1 0 SIN 0 120 60
+
+.TRAN 0 1.05 1 10u
+.PROBE
+.END
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148         Xzener.mA_DIODA 
+          IS    2.682000E-09  100.000000E-12 
+           N    1.836           1.7          
+         ISR    1.565000E-09                 
+         IKF     .04417                      
+          BV  100                            
+         IBV  100.000000E-06                 
+          RS     .5664                       
+          TT   11.540000E-09                 
+         CJO    4.000000E-12                 
+          VJ     .5                          
+           M     .3333                       
+
+
+               Xzener.idealna_DIODA 
+          IS  100.000000E-12 
+           N     .01         
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    5.1000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    5.2000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    5.3000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    5.4000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    5.5000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    5.6000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    5.7000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    5.8000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    5.9000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    6.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    6.1000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    6.2000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    6.3000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    6.4000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    6.5000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    6.6000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    6.7000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    6.8000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    6.9000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    7.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    7.1000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    7.2000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    7.3000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    7.4000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    7.5000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    7.6000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    7.7000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    7.8000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    7.9000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    8.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    8.1000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    8.2000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    8.3000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    8.4000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    8.5000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    8.6000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    8.7000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    8.8000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    8.9000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    9.0000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    9.1000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    9.2000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    9.3000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    9.4000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    9.5000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    9.6000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    9.7000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    9.8000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =    9.9000E-03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM C =     .01  
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (  IN1)    0.0000  (  IN2)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/04/25 21:55:19 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2pop2
+
+
+ ****     JOB STATISTICS SUMMARY
+
+ ****     CURRENT STEP                     PARAM C =     .01  
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =       73.77
+

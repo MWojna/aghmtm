@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\arm.o"
+".\lpc213x.o"
+--strict --scatter ".\LPC2131.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\LPC2131.map" -o .\LPC2131.axf

@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny2313A"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_34\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_34\cw_34.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn2313Adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_34\Debug/cw_34.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>cw_34.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>cw_34.map</FILE>
+  <FILE>cw_34.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Main><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_34\cw_34.asm</FILE><LINE>35</LINE></Main>
+  <DelayInMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_34\cw_34.asm</FILE><LINE>57</LINE></DelayInMs>
+  <L2><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_34\cw_34.asm</FILE><LINE>61</LINE></L2>
+  <DelayOneMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_34\cw_34.asm</FILE><LINE>67</LINE></DelayOneMs>
+  <L1><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_34\cw_34.asm</FILE><LINE>70</LINE></L1>
+ </LABELS>
+</ASSEMBLER_INFO>

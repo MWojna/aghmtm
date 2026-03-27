@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+void vAppendString(char cDestinationStr[], const char cSourceStr[]) {
+    // Znajdz koniec lancucha cDestinationStr
+		unsigned char cSourceIndex;
+    char cNullPos;
+    for (cNullPos = 0; cDestinationStr[cNullPos] != NULL; cNullPos++);
+
+    // Skopiuj cSourceStr do cDestinationStr zaczynajac od NULL-a
+    for (cSourceIndex = 0; cSourceStr[cSourceIndex] != NULL; cSourceIndex++, cNullPos++) {
+        cDestinationStr[cNullPos] = cSourceStr[cSourceIndex];
+    }
+}
+
+int main() {
+    char cDestinationStr[100] = "Hello, ";
+    const char cSourceStr[] = "World!";
+
+    vAppendString(cDestinationStr, cSourceStr);
+
+    printf("Resulting String: %s\n", cDestinationStr);
+
+    return 0;
+}

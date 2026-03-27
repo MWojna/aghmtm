@@ -1,0 +1,160 @@
+
+**** 05/04/25 20:45:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2 pop
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+.LIB "EVAL_TOS.LIB"
+
+X IN_P IN_N VCC VEE OUT TL082
+VCC VCC 0 15
+VEE 0 VEE 15
+
+V_P IN_P 0 AC 1
+V_N IN_N 0 0
+
+Vth OUT 0 1
+
+*.DC V_P -150u 150u 1u
+*.AC DEC 1k 1f 1k.
+.TF V[OUT] Vth
+.PROBE
+.END
+
+**** 05/04/25 20:45:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2 pop
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X.DX            
+          IS  800.000000E-18 
+
+
+**** 05/04/25 20:45:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2 pop
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X.JX            
+               PJF             
+         VTO   -1            
+        BETA  270.100000E-06 
+          IS   15.000000E-12 
+
+
+**** 05/04/25 20:45:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2 pop
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT)    1.0000  (  VCC)   15.0000  (  VEE)  -15.0000  (  X.6)-356.4E-06      
+
+(  X.7)    1.7559  (  X.8)    1.7559  (  X.9)    0.0000  ( IN_N)    0.0000      
+
+( IN_P)    0.0000  ( X.10)    -.3986  ( X.11)  -14.6550  ( X.12)  -14.6550      
+
+( X.53)   12.8000  ( X.54)  -12.8000  ( X.90)    5.0390  ( X.91)   25.0000      
+
+( X.92)  -25.0000  ( X.99)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    VCC         -1.419E-02
+    VEE         -1.419E-02
+    V_P         -4.505E-11
+    V_N         -4.505E-11
+    Vth          5.039E-03
+    X.VB        -3.564E-09
+    X.VC         1.180E-11
+    X.VE         1.380E-11
+    X.VLIM       5.039E-03
+    X.VLP       -1.996E-11
+    X.VLN       -3.004E-11
+
+    TOTAL POWER DISSIPATION   4.21E-01  WATTS
+
+
+
+
+
+
+ ****     SMALL-SIGNAL CHARACTERISTICS
+
+
+      V(OUT)/Vth =  1.000E+00
+
+      INPUT RESISTANCE AT Vth =  3.010E+02
+
+      OUTPUT RESISTANCE AT V(OUT) =  0.000E+00
+
+
+          JOB CONCLUDED
+
+**** 05/04/25 20:45:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2 pop
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+
+**** 05/04/25 20:45:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ *zakres wejsciowy: -70u - 50u
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+*zakres wyjsciowy: -13 - 13
+*k_v: 229.422k
+*3db cutoff: 14.98698
+

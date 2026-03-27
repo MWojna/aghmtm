@@ -1,0 +1,6 @@
+
+AVRASM ver. 2.1.57  C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\kucie\kucie.asm Wed Nov 05 03:00:29 2025
+
+[builtin](2): Including file 'C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn2313Adef.inc'
+C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\kucie\kucie.asm(1): error: LOAD_CONST: Unknown instruction or macro
+C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\kucie\kucie.asm(1): error: syntax error, unexpected ',', expecting ':'

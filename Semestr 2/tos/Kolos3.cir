@@ -1,0 +1,37 @@
+Kolos 3
+
+.LIB "EVAL_TOS.LIB"
+
+Vdd VDD 0 5
+Vin VIN 0 PULSE 0 5 0 0 0 1
+*SIN 707.033m {ampl} 100k
+
+I1 G 0 {iref}
+
+M1 1 G VDD VDD PMOS0P5 W=15u L=0.3u
+M2 2 G VDD VDD PMOS0P5 W=15u L=0.3u
+M3 G G 1 VDD PMOS0P5 W=15u L=0.3u
+M4 VOUT G 2 VDD PMOS0P5 W=15u L=0.3u
+M5 VOUT VIN 0 0 NMOS0P5 W={w} L=0.3u
+
+C1 0 VOUT 200p
+
+*.DC Vin 705m 709m 0.1u
+*.AC DEC 100 1f 1MEG
+.TRAN 0 4n 0 1p
+.PARAM iref = 1u
+.PARAM ampl = 1.1m
+.PARAM w = 30
+.STEP PARAM w 41u 50u 1u
+*.STEP PARAM ampl 1m 2m 0.1m
+*.STEP PARAM iref 0.1u 100u 10u
+*max dla iref = 100n/0.1u
+*kv dla Vin=707.033m to -2.1815K
+*3db cutoff - 992.13193k
+*<2% THD dla 1.1m
+* Rin 1e+20, Rout 6.927e+06
+*w=45u
+*.FOUR 100k V[VOUT]
+.PROBE
+*.TF V[VOUT] Vin
+.END

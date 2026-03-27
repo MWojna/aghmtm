@@ -1,0 +1,276 @@
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+R1 1 2 {opor} 
+*TC=0.01
+
+C1 0 2 159n 
+*TC=-0.002
+
+V1 0 1 AC 1
+
+.OP
+.AC DEC 1k 1 1meg
+.PARAM opor = 1k
+.STEP DEC PARAM opor 100 10k 2
+*.TEMP 0 40 80 120
+*.TRAN 1m 4m 0 1u
+*.FOUR 1k V(1) V(2)
+.PROBE V(2)
+.END
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM OPOR =  100   
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM OPOR =  100   
+
+
+******************************************************************************
+
+
+
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM OPOR =  316.23
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM OPOR =  316.23
+
+
+******************************************************************************
+
+
+
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM OPOR =    1.0000E+03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM OPOR =    1.0000E+03
+
+
+******************************************************************************
+
+
+
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM OPOR =    3.1623E+03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM OPOR =    3.1623E+03
+
+
+******************************************************************************
+
+
+
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM OPOR =   10.0000E+03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM OPOR =   10.0000E+03
+
+
+******************************************************************************
+
+
+
+
+
+          JOB CONCLUDED
+
+**** 03/24/25 15:18:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     JOB STATISTICS SUMMARY
+
+ ****     CURRENT STEP                     PARAM OPOR =   10.0000E+03
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .44
+

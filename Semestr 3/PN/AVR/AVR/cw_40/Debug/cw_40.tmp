@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny2313A"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn2313Adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\Debug/cw_40.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>cw_40.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>cw_40.map</FILE>
+  <FILE>cw_40.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Main><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</FILE><LINE>50</LINE></Main>
+  <DigitTo7segCode><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</FILE><LINE>92</LINE></DigitTo7segCode>
+  <DelayInMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</FILE><LINE>73</LINE></DelayInMs>
+  <L2><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</FILE><LINE>77</LINE></L2>
+  <DelayOneMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</FILE><LINE>83</LINE></DelayOneMs>
+  <L1><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</FILE><LINE>86</LINE></L1>
+  <Table><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</FILE><LINE>104</LINE></Table>
+  <Divide><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</FILE><LINE>120</LINE></Divide>
+  <L><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</FILE><LINE>123</LINE></L>
+  <NumberToDigits><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</FILE><LINE>142</LINE></NumberToDigits>
+  <NumberToDigitsBin><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_40\cw_40.asm</FILE><LINE>168</LINE></NumberToDigitsBin>
+ </LABELS>
+</ASSEMBLER_INFO>

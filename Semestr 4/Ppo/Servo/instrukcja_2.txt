@@ -1,0 +1,3 @@
+Celem tej instrukcj jest zastąpienie możliwie dużej liczby funkcji z modułu strins.h na standardowe funkjce do opercji na łancuchach znakowych.
+Chodzi tu o funkjce do kopiowania, porównywania, tokenizacji (strtok), i konwersji łancuchów na liczby i vice versa.
+Zmiany te powinny być dotyczyć tylko i włącznie dekodera.

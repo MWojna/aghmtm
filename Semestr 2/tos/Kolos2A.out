@@ -1,0 +1,119 @@
+
+**** 04/07/25 14:46:24 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2A
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+.LIB "EVAL_TOS.LIB"
+
+Xtrans IN1 0 OUT1 0 OUT3 TX_I
+Xzener 0 2 ZENER_I
+
+V1 3 0 SIN 0 120 60
+Rv 3 IN1 1f
+
+R1 1 2 191
+RL 2 0 150
+
+C1 1 0 {c}
+*.PARAM c = 520u
+.PARAM c = 13.5m
+*.STEP PARAM c 13m 14m 0.1m
+
+D1 OUT1 1 D1N4148
+D2 OUT3 1 D1N4148
+
+.TRAN 0 10.1 10 100u
+.PROBE
+.END
+
+**** 04/07/25 14:46:24 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2A
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148         Xzener.mA_DIODA 
+          IS    2.682000E-09  100.000000E-12 
+           N    1.836           1.7          
+         ISR    1.565000E-09                 
+         IKF     .04417                      
+          BV  100                            
+         IBV  100.000000E-06                 
+          RS     .5664                       
+          TT   11.540000E-09                 
+         CJO    4.000000E-12                 
+          VJ     .5                          
+           M     .3333                       
+
+
+               Xzener.idealna_DIODA 
+          IS  100.000000E-12 
+           N     .01         
+
+
+**** 04/07/25 14:46:24 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2A
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 15.73E-09  (    2) 15.73E-09  (    3)    0.0000  (  IN1)    0.0000      
+
+( OUT1) 1.115E-24  ( OUT3)    0.0000  (Xzener.Z3)    4.9000                     
+
+(Xzener.Z4)-1.049E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.049E-10
+
+    TOTAL POWER DISSIPATION   5.14E-10  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/07/25 14:46:24 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos2A
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =       11.97
+

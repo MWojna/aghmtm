@@ -1,0 +1,40 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny2313A"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn2313Adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\Debug/KT.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>KT.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>KT.map</FILE>
+  <FILE>KT.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_main><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>99</LINE></_main>
+  <_Timer_ISR><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>70</LINE></_Timer_ISR>
+  <_ExtInt_ISR><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>46</LINE></_ExtInt_ISR>
+  <END><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>62</LINE></END>
+  <_NumberToDigits><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>152</LINE></_NumberToDigits>
+  <MainLoop><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>131</LINE></MainLoop>
+  <DigitTo7segCode><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>245</LINE></DigitTo7segCode>
+  <DelayInMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>266</LINE></DelayInMs>
+  <_Divide><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>196</LINE></_Divide>
+  <div><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>200</LINE></div>
+  <div_end><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>210</LINE></div_end>
+  <Table><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>243</LINE></Table>
+  <L2><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>272</LINE></L2>
+  <OneMsLoop><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>283</LINE></OneMsLoop>
+  <L1><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\KT\KT.asm</FILE><LINE>289</LINE></L1>
+ </LABELS>
+</ASSEMBLER_INFO>

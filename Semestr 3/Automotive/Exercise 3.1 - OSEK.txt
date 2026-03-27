@@ -1,0 +1,84 @@
+Exercise 3.1 - OSEK
+
+
+
+1
+int main(void) {
+    StartOS(OSDEFAULTAPPMODE);
+}
+
+
+
+2
+ISR(EXT_INPUT) {
+    SetEvent(TK_SUPERVISOR, EV_BUTTON);
+}
+
+
+
+3
+TASK(TK_BACKGROUND) {
+    SetRelAlarm(AL_TIMER, 10, 10);
+    SetRelAlarm(AL_DISPLAY, 100, 100);
+
+    while(1) {}
+
+    CancelAlarm(AL_TIMER);
+    CancelAlarm(AL_DISPLAY);
+    TerminateTask();
+}
+
+
+
+4
+TASK(TK_DISPLAY) {
+    GetResource(RS_DISPLAY);
+    Display();
+    ReleaseResource(RS_DISPLAY);
+    TerminateTask();
+}
+
+
+
+5
+TASK(TK_DISPLAY) {
+    GetResource(RES_SCHEDULER);		// SuspendAllInterrupts();
+    Display();
+    ReleaseResource(RES_SCHEDULER);	// ResumeAllInterrupts();
+    TerminateTask();
+}
+
+
+
+7
+TASK(TK_SUPERVISOR) {
+    EventMaskType event;
+    while(1) {
+        WaitEvent(EV_BUTTON, EV_AL_TIMER, EV_END_OF_TASK);
+        GetEvent(TK_SUPERVISOR, &event);
+        
+        if(event & EV_BUTTON) == EV_BUTTON {
+            ClearEvent(EV_BUTTON);
+            TreatEV_BUTTON();
+        }
+
+        if(event & EV_AL_TIMER) == EV_AL_TIMER {
+            ClearEvent(EV_AL_TIMER);
+            TreatEV_AL_TIMER();
+        }
+
+        if(event & EV_END_OF_TASK) == EV_END_OF_TASK {
+            ClearEvent(EV_END_OF_TASK);
+            break;
+        }
+    }
+    TerminateTask();
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+
+**** 03/24/25 15:16:25 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ K1
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+R1 1 2 {opor} 
+*TC=0.01
+
+C1 0 2 159n 
+*TC=-0.002
+
+V1 0 1 AC 1
+
+.OP
+.AC DEC 1k 1 1meg
+.PARAM opor
+-----------$
+ERROR(ORPSIM-16470): Missing value for param
+.STEP DEC PARAM opor 100 10k 2
+*.TEMP 0 40 80 120
+*.TRAN 1m 4m 0 1u
+*.FOUR 1k V(1) V(2)
+.PROBE V(2)
+.END
+

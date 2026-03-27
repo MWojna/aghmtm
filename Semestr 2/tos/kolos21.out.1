@@ -1,0 +1,229 @@
+
+**** 04/06/25 13:19:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+.LIB "EVAL_TOS.LIB"
+
+Xzener 0 2 ZENER_II
+Xtrans IN1 0 OUT1 OUT2 TX_II
+
+V1 3 0 SIN 0 120 60
+Rin 3 0 1f
+
+D1 OUT1 1 D1N4148
+D2 0 OUT2 D1N4148
+D3 OUT2 1 D1N4148
+D4 0 OUT1 D1N4148
+
+C1 1 0 500u
+
+R1 1 2 200
+RL 2 0 1k
+
+.TRAN 1m 40m 0 10u
+.PROBE
+.END
+
+**** 04/06/25 13:19:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148         Xzener.mA_DIODA 
+          IS    2.682000E-09  100.000000E-12 
+           N    1.836           1.7          
+         ISR    1.565000E-09                 
+         IKF     .04417                      
+          BV  100                            
+         IBV  100.000000E-06                 
+          RS     .5664                       
+          TT   11.540000E-09                 
+         CJO    4.000000E-12                 
+          VJ     .5                          
+           M     .3333                       
+
+
+               Xzener.idealna_DIODA 
+          IS  100.000000E-12 
+           N     .01         
+
+
+**** 04/06/25 13:19:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 106.7E-09  (    2) 106.7E-09  (    3)    0.0000  (  IN1)    0.0000      
+
+( OUT1) 53.34E-09  ( OUT2) 53.34E-09  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+    Xzener.VZ   -1.067E-10
+
+    TOTAL POWER DISSIPATION   7.15E-10  WATTS
+
+Reducing minimum delta to make the circuit converge.
+Reducing minimum delta to make the circuit converge.
+Reducing minimum delta to make the circuit converge.
+Reducing minimum delta to make the circuit converge.
+Reducing minimum delta to make the circuit converge.
+
+ERROR(ORPSIM-15138): Convergence problem in Transient Analysis at Time =  221.0E-12.
+         Time step =  181.9E-21, minimum allowable step size =  1.000E-18
+
+  These devices failed to converge:
+    D1        D2        D3        D4        
+
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 892.6E-18  (    2) 17.78E-09  (    3) 10.00E-06  (  IN1) 38.06E-24      
+
+( OUT1)-12.62E-18  ( OUT2)-12.62E-18  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+**** Interrupt ****
+**** Param: RELTOL = 0.001
+**** Param: ABSTOL = 1e-012
+**** Param: VNTOL = 1e-006
+**** Param: GMIN = 1e-012
+**** Param: TSTOP = 0.04
+**** Param: TMAX = 1e-005
+**** Param: ITL1 = 150
+**** Param: ITL2 = 20
+**** Param: ITL4 = 10
+**** Param: AutoConverge = 0
+**** Param: AutoConverge.ITL1 = 1000
+**** Param: AutoConverge.ITL2 = 1000
+**** Param: AutoConverge.ITL4 = 1000
+**** Param: AutoConverge.RELTOL = 0.05
+**** Param: AutoConverge.ABSTOL = 0.001
+**** Param: AutoConverge.VNTOL = 0.001
+**** Param: AutoConverge.PIVTOL = 1e-010
+**** Param: ADVCONV = 0
+**** Param: Current_Simulation = 3
+**** Param: METHOD = 0
+**** Param: TRTOL = 7
+**** Param: STEPGMIN = 0
+**** Param: GMINSTEPS = 0
+**** Param: ITL6 = 0
+**** Param: NOSTEPDEP = 0
+**** Param: PTRANSTEP = 0
+**** Param: GMINSRC = 0
+**** Param: PSEUDOTRAN = 0
+**** Param: NOSTEPSRC = 0
+
+ERROR(ORPSIM-15138): Convergence problem in Transient Analysis at Time =  221.0E-12.
+         Time step =  181.9E-21, minimum allowable step size =  1.000E-18
+
+  These devices failed to converge:
+    D1        D2        D3        D4        
+
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 892.6E-18  (    2) 17.78E-09  (    3) 10.00E-06  (  IN1) 38.06E-24      
+
+( OUT1)-12.62E-18  ( OUT2)-12.62E-18  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+**** Interrupt ****
+**** Param: RELTOL = 0.001
+**** Param: ABSTOL = 1e-012
+**** Param: VNTOL = 1e-006
+**** Param: GMIN = 1e-012
+**** Param: TSTOP = 0.04
+**** Param: TMAX = 1e-005
+**** Param: ITL1 = 150
+**** Param: ITL2 = 20
+**** Param: ITL4 = 10
+**** Param: AutoConverge = 0
+**** Param: AutoConverge.ITL1 = 1000
+**** Param: AutoConverge.ITL2 = 1000
+**** Param: AutoConverge.ITL4 = 1000
+**** Param: AutoConverge.RELTOL = 0.05
+**** Param: AutoConverge.ABSTOL = 0.001
+**** Param: AutoConverge.VNTOL = 0.001
+**** Param: AutoConverge.PIVTOL = 1e-010
+**** Param: ADVCONV = 0
+**** Param: Current_Simulation = 3
+**** Param: METHOD = 0
+**** Param: TRTOL = 7
+**** Param: STEPGMIN = 0
+**** Param: GMINSTEPS = 0
+**** Param: ITL6 = 0
+**** Param: NOSTEPDEP = 0
+**** Param: PTRANSTEP = 0
+**** Param: GMINSRC = 0
+**** Param: PSEUDOTRAN = 0
+**** Param: NOSTEPSRC = 0
+
+ERROR(ORPSIM-15138): Convergence problem in Transient Analysis at Time =  221.0E-12.
+         Time step =  181.9E-21, minimum allowable step size =  1.000E-18
+
+  These devices failed to converge:
+    D1        D2        D3        D4        
+
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1) 892.6E-18  (    2) 17.78E-09  (    3) 10.00E-06  (  IN1) 38.06E-24      
+
+( OUT1)-12.62E-18  ( OUT2)-12.62E-18  (Xzener.Z3)    6.7000                     
+
+(Xzener.Z4)-2.134E-09                 
+
+
+**** Interrupt ****

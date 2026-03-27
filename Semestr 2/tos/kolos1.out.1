@@ -1,0 +1,118 @@
+
+**** 03/23/25 20:30:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+R1 1 2 1k
+R2 1 3 2k
+R3 3 0 3k
+
+C1 3 0 1u
+C2 1 3 2u
+C3 1 0 3u
+
+V1 2 0 PULSE 0 1 0 0 0 1
+
+.OP
+.AC DEC 1k 1 1k
+.TRAN 0 50m 0 1u
+.PROBE
+.END
+
+**** 03/23/25 20:30:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  (    3)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 03/23/25 20:30:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+WARNING(ORPSIM-15193): No AC sources -- AC Sweep ignored
+
+**** 03/23/25 20:30:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    1)    0.0000  (    2)    0.0000  (    3)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V1           0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/23/25 20:30:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ Kolos 2
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .83
+

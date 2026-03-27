@@ -1,0 +1,41 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATtiny2313A"</DEVICE>
+ <WORKING_DIR>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\tn2313Adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\Debug/cw_49.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>cw_49.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>cw_49.map</FILE>
+  <FILE>cw_49.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_main><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>86</LINE></_main>
+  <_Timer_ISR><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>61</LINE></_Timer_ISR>
+  <_ExtInt_ISR><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>43</LINE></_ExtInt_ISR>
+  <Increment><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>48</LINE></Increment>
+  <NoOverflow><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>53</LINE></NoOverflow>
+  <NumberToDigits><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>164</LINE></NumberToDigits>
+  <MainLoop><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>132</LINE></MainLoop>
+  <DigitTo7segCode><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>222</LINE></DigitTo7segCode>
+  <DelayInMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>236</LINE></DelayInMs>
+  <Divide><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>196</LINE></Divide>
+  <Compare><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>202</LINE></Compare>
+  <end_div><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>210</LINE></end_div>
+  <Table><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>220</LINE></Table>
+  <InsideDelayInMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>240</LINE></InsideDelayInMs>
+  <OneMsLoop><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>249</LINE></OneMsLoop>
+  <InsideDelayOneMs><FILE>C:\Users\micha\Desktop\AGH MTM\Semestr 3\PN\AVR\AVR\cw_49\cw_49.asm</FILE><LINE>253</LINE></InsideDelayOneMs>
+ </LABELS>
+</ASSEMBLER_INFO>

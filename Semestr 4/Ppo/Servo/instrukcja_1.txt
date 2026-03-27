@@ -1,0 +1,75 @@
+Celem poniższych punków jest (częściowe) przerobienie kodu proceduralnego na obiektowy.
+
+1. Sprawdzenie projektu referencyjnego (servo_ref.zip)
+	a) Zapoznać się z kodem projektu wzorcowego.
+	b) Sprawdzić jego działanie z użyciem sprzętu oraz symulatora 
+	   Użyć okienka symulacji terminala, comm1. 
+	   Żeby sprawdić czy dekodowanie działa poprawnie można np. wstawić breakpointy w miejsce gdzie sa wykonywane komendy servo)
+		
+2. Przestawienie projektu na C++
+	a) Zmienić rozszerzenia wszystkich plików "c" na "cpp"
+   b) W ustawiniach projektu, w zakładce "Target" zaznaczyć checkbox "Use MicroLIB"
+	   Jest to konieczne do poprawnego działania dynamicznej alokacji pamięci (operator "new")
+	c) Doprowadzić do poprawnej kompilacji projektu
+
+3. Przerobienie modułu "watch" na klasę
+	a) Spróbowac przerobić moduł "watch" na klasę "Watch"
+	   Obiekt klasy "Watch" powinien być globalny.
+		Wszystkie składniki klasy (pola i metody) mogą zostać publiczne
+	b) Spróbować zamienić "Watch_Init" na konstruktor.
+	   Zanotować jaki problem występuje.
+	c) Usunąć konstruktor a zamiast niego:
+		- w pliku "main.c" stworzyć funkcję "Timer0_Handler" i umieścić w niej wywołanie metody "Update" obiektu "watch"
+		- w funkcji "main" podłaczyć funkcję "Timer0_Handler" do timera 0.
+	d) Doprowadzić projekt do poprawnej kompilacji i sprawdzić jego działanie.
+	   Wystarczy sprawdzić na symulatorze czy widać działanie watcha na terminalu (comm1)
+		
+4. Przerobić modułu "servo" na klasę w sposób analogiczny do watch-a
+   Tym razem zadbać o maksymalnie ograniczeni dostępu do składników klasy
+	
+5. Przerobienie modułu dekoder na klasę
+  Przerobnie tego modułu jest bardziej złożone od poprzednich.
+  
+  a) Przerobić moduł "decoder" na klasę "Decoder"
+     - Na razie klasa powinna posiadac tylko metody.
+	     Zmienne globalne zwiąne z modułem pozostają niezmnienione
+     - W pierwszej kolejności doprowadzić do poprawniej kompilacji moduł "decoder" (czyli plik decoder.cpp, przycisk "Translate")
+     - Następnie doprowadzić do poprawniej kompilacji cały projekt
+	  
+  b) Zmienić zmienną globalną "ucTokenNr" na składnik klasy
+     Doprowadzić projekt do poprawniej kompilacji 
+	  
+  c) Zmienić zmienną globalną "asTokens" na składnik klasy
+     Doprowadzić projekt do poprawniej kompilacji i sprawdzić jego działanie na symulatorze
+	  
+  d) Zamienieć składnik "asTokens" klasy "Decoder" na wskaźnik do tablicy ("pasTokens").
+     Dodać implementację konstruktora domniemanego w niej inicjalizację powyższego wskaźnika z użyciem operatora "new".
+	  Rozmiar tablicy tworzonej operatorem "new" ma pozostać taki sam jak tablicy "asTokens".
+	  Doprowadzić projekt do poprawniej kompilacji i sprawdzić jego działanie na symulatorze.
+	  W szczególności sprawdzić poprawnośc dekodowania argumentu komendy "goto 0x??".
+	  W tym celu stworzyć globalną zmienną pomocniczą o nazwie "dbg".
+	  
+  e) Zmienić ustalanie rozmiaru tablicy, na którą wskazuje pasTokens ze stałej ("MAX_TOKEN_NR") na ustalanie za pomocą argumetu konstruktora (unsigned char).
+     Jednocześnie zamienić makrodefinicje MAX_TOKEN_NR na składnik klasy "ucMaxTokenNr"
+     Sprwdzić jak w poprzednim punkcie.
+	  
+  f) W tym punkcie należy zlikwidować BEZPOŚREDNIE uzależnienie klasy "Decoder" od zmienne globalnej "asKeywords[KEYWORD_NR]" oraz makrodefinicji "KEYWORD_NR".
+     W tym celu należy: 
+	   - przenieść tablicę "asKeywords" oraz makrodefinicji "KEYWORD_NR" do pliku "main.c"
+		- w module "decoder":
+			- zamienić:
+				- tablicę "asKeywords" na składnik "pasKeywords" klasy "Decoder" będący wskaźnikiem na wspomnianą tablicę
+				- makrodefinicję "KEYWORD_NR" na składnik "ucKeywordNr" klasy "Decoder" 
+			- dodać do konstruktora argumenty pozwlające na ustawianie skłądników "pasKeywords" i "ucKeywordNr"
+		- Doprowadzić projekt do poprawniej kompilacji i sprawdzić jego działanie na symulatorze.
+		
+	g) Usunąć bezpośrednie określanie rozmiaru tablicy "asKeywords" i przy okazji makrodefinicję "KEYWORD_NR" ( asKeywords[pusto] = {...})
+	   Rozmiar tablicy dla konstruktora obiektu "decodeer" wyliczać z używając operatora "sizeof"
+		
+		
+		 
+	  
+
+	  
+  
+  

@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+enum CompResult { DIFFERENT, EQUAL };
+
+enum CompResult compareStrings(const char cStr1[], const char cStr2[]) {
+		unsigned char cLoopCounter;
+    for (cLoopCounter = 0; ; cLoopCounter++) {
+        if (cStr1[cLoopCounter] != cStr2[cLoopCounter] || cStr1[cLoopCounter] == NULL) {
+            return (cStr1[cLoopCounter] == cStr2[cLoopCounter]) ? EQUAL : DIFFERENT;
+        }
+    }
+}
+
+int main() {
+    const char cStr1[] = "Test";
+    const char cStr2[] = "Test";
+
+    enum CompResult eResult = compareStrings(cStr1, cStr2);
+
+    if (eResult == EQUAL) {
+        printf("EQUAL\n");
+    } else {
+        printf("NOTEQUAL\n");
+    }
+
+    return 0;
+}
