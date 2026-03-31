@@ -1,0 +1,11 @@
+Dependencies for Project 'ppo', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x69CB2BA5)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.cpp)(0x69CB33F2)()
+I (C:\Users\micha\Downloads\1-20260331T020339Z-3-001\1\led.h)(0x69CB33FB)
+F (.\led.cpp)(0x69CB33F2)()
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\micha\Downloads\1-20260331T020339Z-3-001\1\led.h)(0x69CB33FB)
+F (.\keyboard.cpp)(0x69CB3108)()
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\micha\Downloads\1-20260331T020339Z-3-001\1\Keyboard.h)(0x69CB2BA5)
+F (.\stepper.cpp)(0x69CB363A)()
