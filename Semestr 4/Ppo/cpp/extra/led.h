@@ -3,7 +3,7 @@
 
 class Led {
 	public:
-		void On(unsigned char ucLedIndex);
+		virtual void On(unsigned char ucLedIndex = 0);
 		Led();
 };
 

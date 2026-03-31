@@ -398,19 +398,34 @@
               <FilePath>.\Startup.s</FilePath>
             </File>
             <File>
-              <FileName>keyboard.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\keyboard.c</FilePath>
+              <FileName>keyboard.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\keyboard.cpp</FilePath>
             </File>
             <File>
-              <FileName>led.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\led.c</FilePath>
+              <FileName>led.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\led.cpp</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>stepper.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\stepper.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>ledinv.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\ledinv.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>ledpos.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\ledpos.cpp</FilePath>
             </File>
           </Files>
         </Group>

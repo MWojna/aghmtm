@@ -1,5 +1,7 @@
 #include "stepper.h"
 #include "keyboard.h"
+#include "ledinv.h"
+#include "ledpos.h"
 
 void Delay(int iTimeInMs){
 	int iCycle;
@@ -9,12 +11,17 @@ void Delay(int iTimeInMs){
 }
 
 	Stepper mystep;
-	unsigned char ucInversion;
 
 int main(void)
 {
+	Led *pled;
 	Keyboard mykey;
-
+	if(mykey.eRead() == BUTTON_4) {
+		pled = new Ledinv;
+	} else {
+		pled = new Ledpos;
+	}
+	mystep.Setled(pled);
 	while(1){
 		Delay(500);
 		switch(mykey.eRead()) {
