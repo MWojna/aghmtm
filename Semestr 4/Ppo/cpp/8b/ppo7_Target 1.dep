@@ -1,0 +1,16 @@
+Dependencies for Project 'ppo7', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x69A71906)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\keyboard.cpp)(0x69C876A9)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C81BAC)
+I (C:\Users\micha\Desktop\aghmtm\Semestr 4\Ppo\cpp\7\keyboard.h)(0x69AF5C31)
+F (.\led.cpp)(0x69C87A70)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C81BAC)
+I (C:\Users\micha\Desktop\aghmtm\Semestr 4\Ppo\cpp\7\led.h)(0x69C87195)
+F (.\main.cpp)(0x69C87E08)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Users\micha\Desktop\aghmtm\Semestr 4\Ppo\cpp\7\led.h)(0x69C87195)
+I (C:\Users\micha\Desktop\aghmtm\Semestr 4\Ppo\cpp\7\stepper.h)(0x69C87C98)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C81BAC)
+F (.\stepper.cpp)(0x69C87D6F)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\stepper.o --omf_browse .\stepper.crf --depend .\stepper.d)
+I (C:\Users\micha\Desktop\aghmtm\Semestr 4\Ppo\cpp\7\stepper.h)(0x69C87C98)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C81BAC)
+I (C:\Users\micha\Desktop\aghmtm\Semestr 4\Ppo\cpp\7\led.h)(0x69C87195)
