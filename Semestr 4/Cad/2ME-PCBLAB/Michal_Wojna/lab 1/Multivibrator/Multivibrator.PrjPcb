@@ -51,7 +51,7 @@ PrefsRevisionGUID=
 
 [Release]
 ReleaseTarget=1
-ReleaseFolderPath=[OutputPath]
+ReleaseFolderPath=C:\Users\micha\Desktop\aghmtm\Semestr 4\Cad\2ME-PCBLAB\Michal_Wojna\lab 1\Multivibrator\Output path
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
