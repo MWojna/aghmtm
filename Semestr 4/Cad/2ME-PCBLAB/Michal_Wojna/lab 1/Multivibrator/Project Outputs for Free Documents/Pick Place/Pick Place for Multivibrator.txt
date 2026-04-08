@@ -1,0 +1,22 @@
+Altium Designer Pick and Place Locations
+C:\Users\micha\Desktop\aghmtm\Semestr 4\Cad\2ME-PCBLAB\Michal_Wojna\lab 1\Multivibrator\Project Outputs for Free Documents\Pick Place\Pick Place for Multivibrator.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       04.04.26
+Time:       13:36
+Revision:   a1eb69989fe5f4123fef2248c78509e7d189ebd7
+Variant:    No variations
+Units used: mm
+
+Designator Comment        Layer    Footprint             Center-X(mm) Center-Y(mm) Rotation Description                                                                                        
+R4         1K             TopLayer RESC2013X70X40LL20T20 39.0000      4.0000       270      ""                                                                                                 
+R3         1K             TopLayer RESC2013X70X40LL20T20 33.0000      4.0000       270      ""                                                                                                 
+R2         100K           TopLayer RESC2013X70X40NL20T20 42.0000      4.0000       270      ""                                                                                                 
+R1         100K           TopLayer RESC2013X70X40NL20T20 36.0000      4.0000       270      ""                                                                                                 
+Q2         BC547CG        TopLayer ONSC-TO-92-3-29-11    42.0000      10.0000      90       "Amplifier Transistor, NPN Silicon, 3-Pin TO-92, Pb-Free, Bulk Box"                                
+Q1         BC547CG        TopLayer ONSC-TO-92-3-29-11    34.0000      10.0000      90       "Amplifier Transistor, NPN Silicon, 3-Pin TO-92, Pb-Free, Bulk Box"                                
+P1         TSW-102-26-F-S TopLayer SMTC-TSW-102-26-XX-S  29.0000      7.7300       90       "0.025" SQ Post Header, Through-hole, Vertical, -55 to 125 degC, 2.54 mm Pitch, 2-Pin, Male, RoHS" 
+C2         22nF           TopLayer FP-C0603C-CF-MFG      37.4000      13.0000      0        "CAP CER 0.022UF 16V 5% X7R 0603"                                                                  
+C1         22nF           TopLayer FP-C0603C-CF-MFG      37.6000      10.0000      0        "CAP CER 0.022UF 16V 5% X7R 0603"                                                                  
