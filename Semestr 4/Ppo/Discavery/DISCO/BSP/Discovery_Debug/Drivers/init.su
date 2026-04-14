@@ -1,0 +1,3 @@
+../Drivers/init.c:9:6:initBoard	8	static
+../Drivers/init.c:32:6:initGraphics	16	static
+../Drivers/init.c:68:13:SystemClock_Config	88	static

@@ -1,0 +1,16 @@
+#include <stm32f4xx_hal.h>
+#include "stm32f429i_discovery_lcd.h"
+#include <stm32f429i_discovery.h>
+#include "cstdio"
+
+int main() {
+BSP_LCD_SetBackColor(LCD_COLOR_BLUE);
+int iDispNr = 0;
+uint8_t tDispStr[11];
+	while (true) {
+		iDispNr++;
+		sprintf((char *)tDispStr, "%d", iDispNr);
+		BSP_LCD_DisplayStringAt(10, 20, tDispStr, LEFT_MODE);
+		HAL_Delay(300);
+	}
+}

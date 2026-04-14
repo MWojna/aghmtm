@@ -1,0 +1,17 @@
+#include <stm32f4xx_hal.h>
+#include "stm32f429i_discovery_lcd.h"
+#include "stm32f429i_discovery_ts.h"
+#include <stm32f429i_discovery.h>
+#include "cstdio"
+
+int main() {
+BSP_TS_Init(240, 320);
+BSP_LCD_SetBackColor(LCD_COLOR_BLUE);
+TS_StateTypeDef tsState;
+const char tDispStr[11];
+	while (true) {
+		BSP_TS_ITGetStatus();
+		tDispStr[11] = "*******";
+		BSP_LCD_DisplayStringAt(10, 20, (uint8_t *)tDispStr, LEFT_MODE);
+	}
+}

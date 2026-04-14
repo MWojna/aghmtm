@@ -1,0 +1,12 @@
+10:56:02 **** Incremental Build of configuration Discovery_Debug for project BSP ****
+make -j12 all 
+arm-none-eabi-g++ "../src/main.cxx" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_STM32F429I_DISCO -DSTM32F429xx -c -I"C:/Users/micha/Desktop/git/aghmtm/Semestr 4/Ppo/Discavery/DISCO/BSP/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/micha/Desktop/git/aghmtm/Semestr 4/Ppo/Discavery/DISCO/BSP/Drivers/CMSIS/Include" -I"C:/Users/micha/Desktop/git/aghmtm/Semestr 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery" -I"C:/Users/micha/Desktop/git/aghmtm/Semestr 4/Ppo/Discavery/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/micha/Desktop/git/aghmtm/Semestr 4/Ppo/Discavery/DISCO/BSP/Drivers/User" -I"C:/Users/micha/Desktop/git/aghmtm/Semestr 4/Ppo/Discavery/DISCO/BSP/Drivers" -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+../src/main.cxx: In function 'int main()':
+../src/main.cxx:14:26: error: incompatible types in assignment of 'const char [8]' to 'uint8_t [8]' {aka 'unsigned char [8]'}
+   14 |                 tDispStr = "*******";
+      |                 ~~~~~~~~~^~~~~~~~~~~
+../src/main.cxx:10:17: warning: unused variable 'tsState' [-Wunused-variable]
+   10 | TS_StateTypeDef tsState;
+      |                 ^~~~~~~
+make: *** [src/subdir.mk:19: src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
