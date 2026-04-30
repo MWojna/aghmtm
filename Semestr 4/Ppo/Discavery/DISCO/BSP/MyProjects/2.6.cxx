@@ -4,7 +4,9 @@
 #include "cstdio"
 
 int main() {
+BSP_LCD_SetFont(&Font20);
 BSP_LCD_SetBackColor(LCD_COLOR_BLUE);
+BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
 uint8_t tDispStr[11];
 int iX = BSP_LCD_GetXSize();
 int iY = BSP_LCD_GetYSize();

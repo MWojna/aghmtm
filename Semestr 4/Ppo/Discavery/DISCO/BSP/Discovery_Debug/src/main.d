@@ -37,6 +37,10 @@ src/main.o: ../src/main.cxx \
  C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/Utilities/Fonts/fonts.h \
  C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/ili9341/ili9341.h \
  C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/ili9341/../Common/lcd.h \
+ C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.h \
+ C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/stmpe811.h \
+ C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/ts.h \
+ C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/io.h \
  C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.h
 C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/User/stm32f4xx_hal_conf.h:
@@ -76,4 +80,8 @@ C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM
 C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/Utilities/Fonts/fonts.h:
 C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/ili9341/ili9341.h:
 C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/ili9341/../Common/lcd.h:
+C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.h:
+C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/stmpe811.h:
+C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/ts.h:
+C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/io.h:
 C:/Users/micha/Desktop/aghmtm/Semestr\ 4/Ppo/Discavery/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.h:
