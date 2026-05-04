@@ -1,0 +1,21 @@
+Dependencies for Project '8a', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x69E5444B)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.cpp)(0x69E76D78)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Users\micha\Desktop\git\aghmtm\Semestr 4\Ppo\cpp\cpp-pop\8a\stepper.h)(0x69E76BFC)
+I (C:\Users\micha\Desktop\git\aghmtm\Semestr 4\Ppo\cpp\cpp-pop\8a\keyboard.h)(0x69E75F3B)
+I (C:\Users\micha\Desktop\git\aghmtm\Semestr 4\Ppo\cpp\cpp-pop\8a\ledinv.h)(0x69E76DB5)
+I (C:\Users\micha\Desktop\git\aghmtm\Semestr 4\Ppo\cpp\cpp-pop\8a\led.h)(0x69E76C7D)
+F (.\led.cpp)(0x69E7692A)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\micha\Desktop\git\aghmtm\Semestr 4\Ppo\cpp\cpp-pop\8a\led.h)(0x69E76C7D)
+F (.\keyboard.cpp)(0x69E75F3B)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\micha\Desktop\git\aghmtm\Semestr 4\Ppo\cpp\cpp-pop\8a\Keyboard.h)(0x69E75F3B)
+F (.\stepper.cpp)(0x69E76CF6)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\stepper.o --omf_browse .\stepper.crf --depend .\stepper.d)
+I (C:\Users\micha\Desktop\git\aghmtm\Semestr 4\Ppo\cpp\cpp-pop\8a\stepper.h)(0x69E76BFC)
+I (C:\Users\micha\Desktop\git\aghmtm\Semestr 4\Ppo\cpp\cpp-pop\8a\led.h)(0x69E76C7D)
+F (.\ledinv.cpp)(0x69E7692A)()
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\micha\Desktop\git\aghmtm\Semestr 4\Ppo\cpp\cpp-pop\8a\ledinv.h)(0x69E76DB5)
+I (C:\Users\micha\Desktop\git\aghmtm\Semestr 4\Ppo\cpp\cpp-pop\8a\led.h)(0x69E76C7D)
+F (.\ledpos.cpp)(0x69E76DE7)()

@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\micha\Desktop\git\aghmtm\Semestr 4\Ppo\cpp\cpp-pop\5\5.uvproj
+Project File Date:  04/21/2026
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.cpp...
+compiling led.cpp...
+compiling keyboard.cpp...
+compiling stepper.cpp...
+linking...
+Program Size: Code=928 RO-data=36 RW-data=4 ZI-data=1260  
+".\ppo.axf" - 0 Errors, 0 Warning(s).
+Clean started: Project: '5'
+   deleting intermediate output files for target 'Target 1'
