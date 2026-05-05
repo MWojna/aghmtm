@@ -1,0 +1,48 @@
+#include <stm32f4xx_hal.h>
+#include "stm32f429i_discovery_lcd.h"
+#include "stm32f429i_discovery_ts.h"
+#include <stm32f429i_discovery.h>
+#include "cstdio"
+
+int main() {
+BSP_TS_Init(240, 320);
+BSP_LCD_SetFont(&Font24);
+BSP_LCD_SetTextColor(LCD_COLOR_BLUE);
+BSP_LCD_FillRect(0, 0, 80, 320);
+BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
+BSP_LCD_SetBackColor(LCD_COLOR_RED);
+BSP_LCD_DrawRect(0, 0, 80, 80);
+BSP_LCD_DrawRect(0, 80, 80, 80);
+BSP_LCD_DrawRect(0, 160, 80, 80);
+BSP_LCD_DrawRect(0, 240, 80, 80);
+BSP_LCD_DisplayStringAt(0, 0, (uint8_t *)"0", LEFT_MODE);
+BSP_LCD_DisplayStringAt(0, 80, (uint8_t *)"1", LEFT_MODE);
+BSP_LCD_DisplayStringAt(0, 160, (uint8_t *)"2", LEFT_MODE);
+BSP_LCD_DisplayStringAt(0, 240, (uint8_t *)"3", LEFT_MODE);
+uint16_t tsZone;
+TS_StateTypeDef ts_state;
+uint8_t tDispStr[40];
+const char *pPrintState;
+while (true) {
+	BSP_TS_GetState(&ts_state);
+		switch (ts_state.X) {
+			case 0 ... 80:
+				switch (ts_state.Y) {
+					case 0 ... 80:
+						tsZone = 0;
+						break;
+					case 80 ... 160:
+						tsZone = 80;
+						break;
+					case 160 ... 240:
+						tsZone = 240;
+						break;
+					default:
+						break;
+				}
+			default:
+				break;
+		}
+        HAL_Delay(100);
+    }
+}
