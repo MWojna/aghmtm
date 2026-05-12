@@ -1,0 +1,2 @@
+../src/KeyboardTsLcd.cxx:10:1:KeyboardTsLcd::KeyboardTsLcd(unsigned char)	1
+../src/KeyboardTsLcd.cxx:15:10:KEYBOARD KeyboardTsLcd::eRead()	5

@@ -1,0 +1,2 @@
+../src/KeyboardTs.cxx:8:1:KeyboardTs::KeyboardTs(unsigned char)	1
+../src/KeyboardTs.cxx:13:10:KEYBOARD KeyboardTs::eRead()	4

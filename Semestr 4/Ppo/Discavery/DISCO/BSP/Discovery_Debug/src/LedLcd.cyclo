@@ -1,0 +1,5 @@
+../src/LedLcd.cxx:5:1:LedLcd::LedLcd(unsigned char)	1
+../src/LedLcd.cxx:9:6:void LedLcd::DrawNumbers(uint8_t*)	1
+../src/LedLcd.cxx:17:6:void LedLcd::DrawBg()	1
+../src/LedLcd.cxx:22:6:void LedLcd::DrawLed(unsigned int)	1
+../src/LedLcd.cxx:27:6:void LedLcd::On(unsigned int)	3
