@@ -1,0 +1,25 @@
+#include <stm32f429i_discovery_lcd.h>
+#include "LedLcd.h"
+
+LedLcd::LedLcd(unsigned char ucLedKol) {}
+
+void LedLcd::On(unsigned int Button) {
+	if(Button == 4) {
+		BSP_LCD_SetTextColor(LCD_COLOR_BLUE);
+		BSP_LCD_FillRect(0, 0, 80, 320);
+	} else {
+		BSP_LCD_SetTextColor(LCD_COLOR_GREEN);
+		BSP_LCD_FillRect(0, Button*80, 80, 80);
+	}
+	BSP_LCD_SetFont(&Font24);
+	BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
+	BSP_LCD_SetBackColor(LCD_COLOR_RED);
+	BSP_LCD_DrawRect(0, 0, 80, 80);
+	BSP_LCD_DrawRect(0, 80, 80, 80);
+	BSP_LCD_DrawRect(0, 160, 80, 80);
+	BSP_LCD_DrawRect(0, 240, 80, 80);
+	BSP_LCD_DisplayStringAt(0, 0, (uint8_t *)"0", LEFT_MODE);
+	BSP_LCD_DisplayStringAt(0, 80, (uint8_t *)"1", LEFT_MODE);
+	BSP_LCD_DisplayStringAt(0, 160, (uint8_t *)"2", LEFT_MODE);
+	BSP_LCD_DisplayStringAt(0, 240, (uint8_t *)"3", LEFT_MODE);
+}

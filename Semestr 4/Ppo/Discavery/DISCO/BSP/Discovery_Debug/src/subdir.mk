@@ -5,12 +5,21 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CXX_SRCS += \
+../src/KeyboardTs.cxx \
+../src/KeyboardTsLcd.cxx \
+../src/LedLcd.cxx \
 ../src/main.cxx 
 
 OBJS += \
+./src/KeyboardTs.o \
+./src/KeyboardTsLcd.o \
+./src/LedLcd.o \
 ./src/main.o 
 
 CXX_DEPS += \
+./src/KeyboardTs.d \
+./src/KeyboardTsLcd.d \
+./src/LedLcd.d \
 ./src/main.d 
 
 
@@ -21,7 +30,7 @@ src/%.o src/%.su src/%.cyclo: ../src/%.cxx src/subdir.mk
 clean: clean-src
 
 clean-src:
-	-$(RM) ./src/main.cyclo ./src/main.d ./src/main.o ./src/main.su
+	-$(RM) ./src/KeyboardTs.cyclo ./src/KeyboardTs.d ./src/KeyboardTs.o ./src/KeyboardTs.su ./src/KeyboardTsLcd.cyclo ./src/KeyboardTsLcd.d ./src/KeyboardTsLcd.o ./src/KeyboardTsLcd.su ./src/LedLcd.cyclo ./src/LedLcd.d ./src/LedLcd.o ./src/LedLcd.su ./src/main.cyclo ./src/main.d ./src/main.o ./src/main.su
 
 .PHONY: clean-src
 

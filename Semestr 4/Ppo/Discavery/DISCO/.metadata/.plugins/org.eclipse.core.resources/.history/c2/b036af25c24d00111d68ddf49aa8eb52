@@ -1,0 +1,18 @@
+#include <stm32f4xx_hal.h>
+
+#include "KeyboardTsLcd.h"
+#include "KeyboardTs.h"
+
+int main()
+{
+   KeyboardTsLcd Keyboard(0);
+
+   KEYBOARD eKeyboard;
+
+   while(1) {
+	 eKeyboard = Keyboard.eRead();
+
+
+     HAL_Delay(100);
+   }
+}

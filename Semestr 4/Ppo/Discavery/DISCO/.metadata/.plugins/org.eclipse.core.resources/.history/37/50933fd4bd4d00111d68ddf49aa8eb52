@@ -1,0 +1,30 @@
+/*
+ * KeyboardTsLcd.h
+ *
+ *  Created on: 12 May 2026
+ *      Author: micha
+ */
+
+#ifndef KEYBOARDTSLCD_H_
+#define KEYBOARDTSLCD_H_
+
+enum KEYBOARD {
+	UNPRESSED = 0,
+	BUTTON_0 = 1,
+	BUTTON_1 = 2,
+	BUTTON_2 = 3,
+	BUTTON_3 = 4
+};
+
+class KeyboardTs
+{
+private:
+	unsigned char ucXPos = 0;
+public:
+	KEYBOARD eRead();
+
+	KeyboardTs(unsigned char ucXPos = 0);
+};
+
+
+#endif /* KEYBOARDTSLCD_H_ */

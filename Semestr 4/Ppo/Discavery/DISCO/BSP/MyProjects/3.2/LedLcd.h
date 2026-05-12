@@ -1,0 +1,9 @@
+#ifndef LEDLCD_H
+#define LEDLCD_H
+
+class LedLcd {
+public:
+	void On(unsigned int Button);
+};
+
+#endif

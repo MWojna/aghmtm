@@ -1,0 +1,42 @@
+#include <stm32f429i_discovery_lcd.h>
+#include "LedLcd.h"
+
+LedLcd::LedLcd() {
+	BSP_LCD_Init();
+	HAL_Init();
+}
+
+void LedLcd::drawButton(unsigned int uiYPos, uint32_t uiFillColor) {
+	BSP_LCD_SetTextColor(BORDER_COLOR);
+	BSP_LCD_DrawRect(X_POS_RECT, uiYPos, WIDTH, HEIGHT);
+	BSP_LCD_SetTextColor(uiFillColor);
+	BSP_LCD_FillRect(X_POS_RECT+BORDER_SIZE, uiYPos+BORDER_SIZE, WIDTH-BORDER_SIZE, HEIGHT-BORDER_SIZE);
+}
+
+void LedLcd::drawButtonPressed(unsigned int uiYPos) {
+	drawButton(uiYPos, FILL_COLOR_PRESSED);
+}
+
+void LedLcd::drawButtonUnpressed(unsigned int uiYPos) {
+	drawButton(uiYPos, FILL_COLOR_UNPRESSED);
+}
+
+void LedLcd::drawNumberButton(unsigned int Number, unsigned int uiYPos) {
+	BSP_LCD_SetFont(FONT);
+	BSP_LCD_SetTextColor(TEXT_COLOR);
+	BSP_LCD_SetBackColor(BACKGROUND_COLOR);
+	BSP_LCD_DisplayChar(X_POS_NUM, uiYPos, (Number+'0'));
+}
+
+void LedLcd::On(unsigned int Button) {
+	BSP_LCD_SetTextColor(LCD_COLOR_GREEN);
+	BSP_LCD_FillRect(0, (Button+1)*80, 80, 80);
+}
+
+
+
+
+
+
+
+

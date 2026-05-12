@@ -1,0 +1,36 @@
+#include <stm32f429i_discovery_lcd.h>
+#include "LedLcd.h"
+
+extern unsigned char ucKbKol;
+unsigned char ucLedKol = 0;
+
+LedLcd::LedLcd(unsigned char ucKol) {
+	ucLedKol = ucKol;
+}
+
+void LedLcd::On(unsigned int Button) {
+	BSP_LCD_SetTextColor(LCD_COLOR_BLUE);
+	BSP_LCD_FillRect(ucLedKol*80, 0, 80, 320);
+	if(Button == 4) {
+		if(ucKbKol == ucLedKol) {
+			BSP_LCD_SetTextColor(LCD_COLOR_BLUE);
+		} else {
+			BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
+		}
+		BSP_LCD_FillRect(ucLedKol*80, 0, 80, 320);
+	} else {
+		BSP_LCD_SetTextColor(LCD_COLOR_GREEN);
+		BSP_LCD_FillRect(ucLedKol*80, Button*80, 80, 80);
+	}
+	BSP_LCD_SetFont(&Font24);
+	BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
+	BSP_LCD_SetBackColor(LCD_COLOR_RED);
+	BSP_LCD_DrawRect(ucLedKol*80, 0, 80, 80);
+	BSP_LCD_DrawRect(ucLedKol*80, 80, 80, 80);
+	BSP_LCD_DrawRect(ucLedKol*80, 160, 80, 80);
+	BSP_LCD_DrawRect(ucLedKol*80, 240, 80, 80);
+	BSP_LCD_DisplayStringAt(ucLedKol*80, 0, (uint8_t *)"0", LEFT_MODE);
+	BSP_LCD_DisplayStringAt(ucLedKol*80, 80, (uint8_t *)"1", LEFT_MODE);
+	BSP_LCD_DisplayStringAt(ucLedKol*80, 160, (uint8_t *)"2", LEFT_MODE);
+	BSP_LCD_DisplayStringAt(ucLedKol*80, 240, (uint8_t *)"3", LEFT_MODE);
+}

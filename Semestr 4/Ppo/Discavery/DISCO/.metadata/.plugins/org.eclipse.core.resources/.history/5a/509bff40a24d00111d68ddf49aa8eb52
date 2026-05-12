@@ -1,0 +1,22 @@
+#ifndef KEYBOARDTS_H
+#define KEYBOARDTS_H
+
+#include "LedLcd.h"
+
+enum KEYBOARD {
+	UNPRESSED = 4,
+	BUTTON_0 = 0,
+	BUTTON_1 = 1,
+	BUTTON_2 = 2,
+	BUTTON_3 = 3
+};
+
+class KeyboardTs {
+public:
+	KEYBOARD eRead();
+	KeyboardTs();
+};
+
+
+
+#endif

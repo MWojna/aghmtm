@@ -1,0 +1,15 @@
+/*
+ * LedLcd.h
+ *
+ *  Created on: 11 May 2026
+ *      Author: micha
+ */
+
+#ifndef LEDLCD_H_
+#define LEDLCD_H_
+
+#include "stm32f429i_discovery_lcd.h"
+
+
+
+#endif /* LEDLCD_H_ */

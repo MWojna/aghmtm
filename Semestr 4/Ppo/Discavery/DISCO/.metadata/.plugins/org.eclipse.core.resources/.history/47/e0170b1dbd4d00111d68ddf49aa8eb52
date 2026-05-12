@@ -1,0 +1,19 @@
+#ifndef KEYBOARDTS_H
+#define KEYBOARDTS_H
+
+enum KEYBOARD {
+	BUTTON_0 = 0,
+	BUTTON_1 = 1,
+	BUTTON_2 = 2,
+	BUTTON_3 = 3,
+	UNPRESSED = 4
+};
+
+class KeyboardTs {
+public:
+	KEYBOARD eRead();
+	KeyboardTs(unsigned char ucKol);
+	void On(unsigned int Button);
+};
+
+#endif

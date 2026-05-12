@@ -1,0 +1,37 @@
+#ifndef LEDLCD_H
+#define LEDLCD_H
+
+#include "KeyboardTs.h"
+
+#define BUTTON_COUNT 4
+
+// Rectangular Details
+#define WIDTH 80
+#define HEIGHT 80
+#define X_POS_RECT 0
+#define BORDER_SIZE 1
+#define BORDER_COLOR LCD_COLOR_GREEN
+#define FILL_COLOR_UNPRESSED LCD_COLOR_BLUE
+#define FILL_COLOR_PRESSED LCD_COLOR_GREEN
+
+//Number Details
+#define FONT &Font24
+#define TEXT_COLOR LCD_COLOR_WHITE
+#define BACKGROUND_COLOR LCD_COLOR_RED
+#define X_POS_NUM 0
+
+class LedLcd , public KeyboardTs {
+private:
+	void drawButton(unsigned int uiYPos, uint32_t uiFillColor);
+	void drawButtonPressed(unsigned int uiYPos);
+	void drawButtonUnpressed(unsigned int uiYPos);
+	void drawNumberButton(unsigned int Number, unsigned int uiYPos);
+public:
+	void On(unsigned int Button);
+
+	LedLcd();
+};
+
+
+
+#endif

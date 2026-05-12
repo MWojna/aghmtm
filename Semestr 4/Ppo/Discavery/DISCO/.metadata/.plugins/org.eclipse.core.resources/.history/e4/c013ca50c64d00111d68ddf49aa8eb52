@@ -1,0 +1,20 @@
+/*
+ * KeyboardTsLcd.cxx
+ *
+ *  Created on: 12 May 2026
+ *      Author: micha
+ */
+
+#include "KeyboardTsLcd.h"
+
+KeyboardTsLcd::KeyboardTsLcd(unsigned char _ucColumn) {
+	pKeyboard	= new KeyboardTs(_ucColumn);
+	pLed		= new LedLcd(_ucColumn);
+}
+
+KEYBOARD KeyboardTsLcd::eRead() {
+	KEYBOARD key = pKeyboard->eRead();
+	pLed->On(key);
+	return key;
+}
+

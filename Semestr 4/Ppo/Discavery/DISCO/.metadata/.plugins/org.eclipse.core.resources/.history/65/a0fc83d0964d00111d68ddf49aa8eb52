@@ -1,0 +1,37 @@
+/*
+ * KeyboardTs.cpp
+ *
+ *  Created on: 11 May 2026
+ *      Author: micha
+ */
+#include <stm32f429i_discovery_ts.h>
+#include <stm32f429i_discovery_lcd.h>
+#include "KeyboardTs.h"
+
+KeyboardTs::KeyboardTs() {
+	int iXPos = BSP_LCD_GetXSize();
+	int iYPos = BSP_LCD_GetYSize();
+
+	BSP_TS_Init(iXPos, iYPos);
+}
+
+KEYBOARD KeyboardTs::eRead() {
+	TS_StateTypeDef sTouchDetect;
+	BSP_TS_GetState(&sTouchDetect);
+
+    if(sTouchDetect.TouchDetected == 0) {
+        return UNPRESSED;
+    }
+
+	if(sTouchDetect.X >= WIDTH) {
+		return UNPRESSED;
+	}
+
+	for(unsigned char ucCurrentButton = 1; ucCurrentButton <= BUTTON_COUNT; ucCurrentButton++) {
+		if(sTouchDetect.Y <= (ucCurrentButton * HEIGHT)) {
+			return static_cast<KEYBOARD>(ucCurrentButton);
+		}
+	}
+
+	return UNPRESSED;
+}

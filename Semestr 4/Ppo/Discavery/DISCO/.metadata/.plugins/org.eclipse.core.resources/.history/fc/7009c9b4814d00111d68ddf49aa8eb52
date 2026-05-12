@@ -1,0 +1,30 @@
+/*
+ * KeyboardTs.h
+ *
+ *  Created on: 11 May 2026
+ *      Author: micha
+ */
+
+#ifndef KEYBOARDTS_H_
+#define KEYBOARDTS_H_
+
+#include "stm32f429i_discovery_ts.h"
+
+enum KEYBOARD {
+	UNPRESSED = 0,
+	BUTTON_0 = 1,
+	BUTTON_1 = 2,
+	BUTTON_2 = 3,
+	BUTTON_3 = 4
+};
+
+class KeyboardTs
+{
+public:
+	KEYBOARD eRead();
+
+	KeyboardTs();
+};
+
+
+#endif /* KEYBOARDTS_H_ */
