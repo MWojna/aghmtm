@@ -1,0 +1,113 @@
+Add component: Footprint Not Found 0805_IPC
+Add component: Footprint Not Found 0805_IPC
+Add component: Footprint Not Found 0805_IPC
+Add component: Footprint Not Found 0805_IPC
+Add component: Footprint Not Found 0805_IPC
+Add component: Footprint Not Found 0805_IPC
+Add component: Footprint Not Found VJ_Tantalum_D
+Add component: Footprint Not Found LSEM-120-03.0-L-DV-A-N-K-TR
+Add component: Footprint Not Found 0603
+Add component: Footprint Not Found 0603
+Add component: Footprint Not Found 0603
+Add component: Footprint Not Found 0603
+Add component: Footprint Not Found 0603
+Add component: Footprint Not Found 0603
+Add component: Footprint Not Found 0603
+Add component: Footprint Not Found 0603
+Add component: Footprint Not Found 0603
+Add component: Footprint Not Found 64A_M
+Add Pin To Net: Unknown Pin: Pin C1_U_lab3_analog_input1-1
+Add Pin To Net: Unknown Pin: Pin C1_U_lab3_analog_input1-2
+Add Pin To Net: Unknown Pin: Pin C1_U_lab3_analog_input2-1
+Add Pin To Net: Unknown Pin: Pin C1_U_lab3_analog_input2-2
+Add Pin To Net: Unknown Pin: Pin C2_U_lab3_analog_input1-1
+Add Pin To Net: Unknown Pin: Pin C2_U_lab3_analog_input1-2
+Add Pin To Net: Unknown Pin: Pin C2_U_lab3_analog_input2-1
+Add Pin To Net: Unknown Pin: Pin C2_U_lab3_analog_input2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin CP1-1
+Add Pin To Net: Unknown Pin: Pin CP1-2
+Add Pin To Net: Unknown Pin: Pin P2-1
+Add Pin To Net: Unknown Pin: Pin P2-2
+Add Pin To Net: Unknown Pin: Pin P2-3
+Add Pin To Net: Unknown Pin: Pin P2-4
+Add Pin To Net: Unknown Pin: Pin P2-14
+Add Pin To Net: Unknown Pin: Pin P2-16
+Add Pin To Net: Unknown Pin: Pin P2-18
+Add Pin To Net: Unknown Pin: Pin P2-20
+Add Pin To Net: Unknown Pin: Pin P2-26
+Add Pin To Net: Unknown Pin: Pin P2-28
+Add Pin To Net: Unknown Pin: Pin P2-30
+Add Pin To Net: Unknown Pin: Pin P2-32
+Add Pin To Net: Unknown Pin: Pin P2-34
+Add Pin To Net: Unknown Pin: Pin P2-36
+Add Pin To Net: Unknown Pin: Pin P2-38
+Add Pin To Net: Unknown Pin: Pin P2-40
+Add Pin To Net: Unknown Pin: Pin R1_U_lab3_analog_input1-1
+Add Pin To Net: Unknown Pin: Pin R1_U_lab3_analog_input1-2
+Add Pin To Net: Unknown Pin: Pin R1_U_lab3_analog_input2-1
+Add Pin To Net: Unknown Pin: Pin R1_U_lab3_analog_input2-2
+Add Pin To Net: Unknown Pin: Pin R2_U_lab3_analog_input1-1
+Add Pin To Net: Unknown Pin: Pin R2_U_lab3_analog_input1-2
+Add Pin To Net: Unknown Pin: Pin R2_U_lab3_analog_input2-1
+Add Pin To Net: Unknown Pin: Pin R2_U_lab3_analog_input2-2
+Add Pin To Net: Unknown Pin: Pin R3_U_lab3_analog_input1-1
+Add Pin To Net: Unknown Pin: Pin R3_U_lab3_analog_input1-2
+Add Pin To Net: Unknown Pin: Pin R3_U_lab3_analog_input2-1
+Add Pin To Net: Unknown Pin: Pin R3_U_lab3_analog_input2-2
+Add Pin To Net: Unknown Pin: Pin R4_U_lab3_analog_input1-1
+Add Pin To Net: Unknown Pin: Pin R4_U_lab3_analog_input1-2
+Add Pin To Net: Unknown Pin: Pin R4_U_lab3_analog_input2-1
+Add Pin To Net: Unknown Pin: Pin R4_U_lab3_analog_input2-2
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin U2-20
+Add Pin To Net: Unknown Pin: Pin U2-21
+Add Pin To Net: Unknown Pin: Pin U2-22
+Add Pin To Net: Unknown Pin: Pin U2-31
+Add Pin To Net: Unknown Pin: Pin U2-35
+Add Pin To Net: Unknown Pin: Pin U2-36
+Add Pin To Net: Unknown Pin: Pin U2-37
+Add Pin To Net: Unknown Pin: Pin U2-38
+Add Pin To Net: Unknown Pin: Pin U2-39
+Add Pin To Net: Unknown Pin: Pin U2-40
+Add Pin To Net: Unknown Pin: Pin U2-41
+Add Pin To Net: Unknown Pin: Pin U2-42
+Add Pin To Net: Unknown Pin: Pin U2-48
+Add Pin To Net: Unknown Pin: Pin U2-49
+Add Pin To Net: Unknown Pin: Pin U2-50
+Add Pin To Net: Unknown Pin: Pin U2-51
+Add Pin To Net: Unknown Pin: Pin U2-52
+Add Pin To Net: Unknown Pin: Pin U2-53
+Add Pin To Net: Unknown Pin: Pin U2-54
+Add Pin To Net: Unknown Pin: Pin U2-55
+Add Pin To Net: Unknown Pin: Pin U2-56
+Add Pin To Net: Unknown Pin: Pin U2-57
+Add Pin To Net: Unknown Pin: Pin U2-58
+Add Pin To Net: Unknown Pin: Pin U2-59
+Add Pin To Net: Unknown Pin: Pin U2-60
+Add Pin To Net: Unknown Pin: Pin U2-61
+Add Pin To Net: Unknown Pin: Pin U2-62
+Add Pin To Net: Unknown Pin: Pin U2-63
+Add Pin To Net: Unknown Pin: Pin U2-64
+Add Class Member: Failed to add class member : Component C1_U_lab3_analog_input1 (C1) 10n
+Add Class Member: Failed to add class member : Component C1_U_lab3_analog_input2 (C1) 10n
+Add Class Member: Failed to add class member : Component C2_U_lab3_analog_input1 (C2) 100n
+Add Class Member: Failed to add class member : Component C2_U_lab3_analog_input2 (C2) 100n
+Add Class Member: Failed to add class member : Component C3 *
+Add Class Member: Failed to add class member : Component C4 *
+Add Class Member: Failed to add class member : Component CP1 *
+Add Class Member: Failed to add class member : Component P2 SAMTEC LSEM 40-pin
+Add Class Member: Failed to add class member : Component R1_U_lab3_analog_input1 (R1) Rfb
+Add Class Member: Failed to add class member : Component R1_U_lab3_analog_input2 (R1) Rfb
+Add Class Member: Failed to add class member : Component R2_U_lab3_analog_input1 (R2) Rin
+Add Class Member: Failed to add class member : Component R2_U_lab3_analog_input2 (R2) Rin
+Add Class Member: Failed to add class member : Component R3_U_lab3_analog_input1 (R3) Rin
+Add Class Member: Failed to add class member : Component R3_U_lab3_analog_input2 (R3) Rin
+Add Class Member: Failed to add class member : Component R4_U_lab3_analog_input1 (R4) Rfb
+Add Class Member: Failed to add class member : Component R4_U_lab3_analog_input2 (R4) Rfb
+Add Class Member: Failed to add class member : Component R5 *
+Add Class Member: Failed to add class member : Component U2 ATmega128-16AU
