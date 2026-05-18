@@ -1,0 +1,175 @@
+Added Component: Designator=C1_U_lab3_analog_input1(0805_IPC)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Added Component: Designator=C1_U_lab3_analog_input2(0805_IPC)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10n"; VariantName = "[No Variations]"
+Added Component: Designator=C2_U_lab3_analog_input1(0805_IPC)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C2_U_lab3_analog_input2(0805_IPC)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Added Component: Designator=C3(0805_IPC)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C4(0805_IPC)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=CP1(VJ_Tantalum_D)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P2(LSEM-120-03.0-L-DV-A-N-K-TR)
+Add component (AddParameter): Name = "Manufacturer"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LSEM-120-03.0-X-DV-A-N-K"; VariantName = "[No Variations]"
+Added Component: Designator=R1_U_lab3_analog_input1(0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rfb"; VariantName = "[No Variations]"
+Added Component: Designator=R1_U_lab3_analog_input2(0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rfb"; VariantName = "[No Variations]"
+Added Component: Designator=R2_U_lab3_analog_input1(0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rin"; VariantName = "[No Variations]"
+Added Component: Designator=R2_U_lab3_analog_input2(0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rin"; VariantName = "[No Variations]"
+Added Component: Designator=R3_U_lab3_analog_input1(0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rin"; VariantName = "[No Variations]"
+Added Component: Designator=R3_U_lab3_analog_input2(0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rin"; VariantName = "[No Variations]"
+Added Component: Designator=R4_U_lab3_analog_input1(0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rfb"; VariantName = "[No Variations]"
+Added Component: Designator=R4_U_lab3_analog_input2(0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rfb"; VariantName = "[No Variations]"
+Added Component: Designator=R5(0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U2(64A_M)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-026-AEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.atmel.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "ATmega128(L) Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.atmel.com/dyn/resources/prod_documents/doc2467.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "ATmega128(L) Summary"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.atmel.com/dyn/resources/prod_documents/2467S.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "revX, Jun-2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "64-Pin Plastic Thin Profile Quad Flat Pack, 14 x 14 x 1.0 mm Body, 0.8 mm Pitch (TQFP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "64A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "revC, Oct-2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RevisionNote"; Value = "PackageVersion updated. URLs added."; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C1_U_lab3_analog_input1-1
+Added Pin To Net: NetName=NetC1_U_lab3_analog_input1_2 Pin=C1_U_lab3_analog_input1-2
+Added Pin To Net: NetName=GND Pin=C1_U_lab3_analog_input2-1
+Added Pin To Net: NetName=NetC1_U_lab3_analog_input2_2 Pin=C1_U_lab3_analog_input2-2
+Added Pin To Net: NetName=GND Pin=C2_U_lab3_analog_input1-1
+Added Pin To Net: NetName=5V0 Pin=C2_U_lab3_analog_input1-2
+Added Pin To Net: NetName=GND Pin=C2_U_lab3_analog_input2-1
+Added Pin To Net: NetName=5V0 Pin=C2_U_lab3_analog_input2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=5V0 Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=5V0 Pin=C4-2
+Added Pin To Net: NetName=GND Pin=CP1-1
+Added Pin To Net: NetName=5V0 Pin=CP1-2
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=5V0 Pin=P2-3
+Added Pin To Net: NetName=5V0 Pin=P2-4
+Added Pin To Net: NetName=PA3 Pin=P2-14
+Added Pin To Net: NetName=PA2 Pin=P2-16
+Added Pin To Net: NetName=PA1 Pin=P2-18
+Added Pin To Net: NetName=PA0 Pin=P2-20
+Added Pin To Net: NetName=PC7 Pin=P2-26
+Added Pin To Net: NetName=PC6 Pin=P2-28
+Added Pin To Net: NetName=PC5 Pin=P2-30
+Added Pin To Net: NetName=PC4 Pin=P2-32
+Added Pin To Net: NetName=PC3 Pin=P2-34
+Added Pin To Net: NetName=PC2 Pin=P2-36
+Added Pin To Net: NetName=PC1 Pin=P2-38
+Added Pin To Net: NetName=PC0 Pin=P2-40
+Added Pin To Net: NetName=NetR1_U_lab3_analog_input1_1 Pin=R1_U_lab3_analog_input1-1
+Added Pin To Net: NetName=OUT_P1 Pin=R1_U_lab3_analog_input1-2
+Added Pin To Net: NetName=NetR1_U_lab3_analog_input2_1 Pin=R1_U_lab3_analog_input2-1
+Added Pin To Net: NetName=OUT_P2 Pin=R1_U_lab3_analog_input2-2
+Added Pin To Net: NetName=GND Pin=R2_U_lab3_analog_input1-1
+Added Pin To Net: NetName=NetR1_U_lab3_analog_input1_1 Pin=R2_U_lab3_analog_input1-2
+Added Pin To Net: NetName=GND Pin=R2_U_lab3_analog_input2-1
+Added Pin To Net: NetName=NetR1_U_lab3_analog_input2_1 Pin=R2_U_lab3_analog_input2-2
+Added Pin To Net: NetName=IN_U_lab3_analog_input1 Pin=R3_U_lab3_analog_input1-1
+Added Pin To Net: NetName=NetR3_U_lab3_analog_input1_2 Pin=R3_U_lab3_analog_input1-2
+Added Pin To Net: NetName=IN_U_lab3_analog_input2 Pin=R3_U_lab3_analog_input2-1
+Added Pin To Net: NetName=NetR3_U_lab3_analog_input2_2 Pin=R3_U_lab3_analog_input2-2
+Added Pin To Net: NetName=NetR3_U_lab3_analog_input1_2 Pin=R4_U_lab3_analog_input1-1
+Added Pin To Net: NetName=OUT_N1 Pin=R4_U_lab3_analog_input1-2
+Added Pin To Net: NetName=NetR3_U_lab3_analog_input2_2 Pin=R4_U_lab3_analog_input2-1
+Added Pin To Net: NetName=OUT_N2 Pin=R4_U_lab3_analog_input2-2
+Added Pin To Net: NetName=NetD1_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=\R\E\S\E\T\ Pin=U2-20
+Added Pin To Net: NetName=5V0 Pin=U2-21
+Added Pin To Net: NetName=GND Pin=U2-22
+Added Pin To Net: NetName=NetR5_2 Pin=U2-31
+Added Pin To Net: NetName=PC0 Pin=U2-35
+Added Pin To Net: NetName=PC1 Pin=U2-36
+Added Pin To Net: NetName=PC2 Pin=U2-37
+Added Pin To Net: NetName=PC3 Pin=U2-38
+Added Pin To Net: NetName=PC4 Pin=U2-39
+Added Pin To Net: NetName=PC5 Pin=U2-40
+Added Pin To Net: NetName=PC6 Pin=U2-41
+Added Pin To Net: NetName=PC7 Pin=U2-42
+Added Pin To Net: NetName=PA3 Pin=U2-48
+Added Pin To Net: NetName=PA2 Pin=U2-49
+Added Pin To Net: NetName=PA1 Pin=U2-50
+Added Pin To Net: NetName=PA0 Pin=U2-51
+Added Pin To Net: NetName=5V0 Pin=U2-52
+Added Pin To Net: NetName=GND Pin=U2-53
+Added Pin To Net: NetName=TDI Pin=U2-54
+Added Pin To Net: NetName=TDO Pin=U2-55
+Added Pin To Net: NetName=TMS Pin=U2-56
+Added Pin To Net: NetName=TCK Pin=U2-57
+Added Pin To Net: NetName=ADC2_N Pin=U2-58
+Added Pin To Net: NetName=OUT_P2 Pin=U2-59
+Added Pin To Net: NetName=ADC1_N Pin=U2-60
+Added Pin To Net: NetName=OUT_P1 Pin=U2-61
+Added Pin To Net: NetName=5V0 Pin=U2-62
+Added Pin To Net: NetName=GND Pin=U2-63
+Added Pin To Net: NetName=5V0 Pin=U2-64
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component C1_U_lab3_analog_input1 (C1) 10n
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component C1_U_lab3_analog_input2 (C1) 10n
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component C2_U_lab3_analog_input1 (C2) 100n
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component C2_U_lab3_analog_input2 (C2) 100n
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component C3 *
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component C4 *
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component CP1 *
+Added Member To Class: ClassName=lab3_schematic Member=Component P2 SAMTEC LSEM 40-pin
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component R1_U_lab3_analog_input1 (R1) Rfb
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component R1_U_lab3_analog_input2 (R1) Rfb
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component R2_U_lab3_analog_input1 (R2) Rin
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component R2_U_lab3_analog_input2 (R2) Rin
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component R3_U_lab3_analog_input1 (R3) Rin
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component R3_U_lab3_analog_input2 (R3) Rin
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component R4_U_lab3_analog_input1 (R4) Rfb
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component R4_U_lab3_analog_input2 (R4) Rfb
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component R5 *
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component U2 ATmega128-16AU
