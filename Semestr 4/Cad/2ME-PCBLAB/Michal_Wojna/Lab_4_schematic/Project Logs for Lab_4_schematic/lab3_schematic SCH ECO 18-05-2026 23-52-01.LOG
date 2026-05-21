@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=U2 Old Footprint=64A_M New Footprint=64A_M
+Change Pin Designator/Name:  Old Designator=P2-6 Old Name=4 New Designator =8 New Name=14
+Change Pin Designator/Name:  Old Designator=P2-8 Old Name=5 New Designator =9 New Name=16
+Change Pin Designator/Name:  Old Designator=P2-10 Old Name=6 New Designator =10 New Name=18
+Change Pin Designator/Name:  Old Designator=P2-12 Old Name=7 New Designator =11 New Name=20
+Change Pin Designator/Name:  Old Designator=P2-14 Old Name=8 New Designator =7 New Name=12
+Change Pin Designator/Name:  Old Designator=P2-16 Old Name=9 New Designator =6 New Name=10
+Change Pin Designator/Name:  Old Designator=P2-18 Old Name=10 New Designator =5 New Name=8
+Change Pin Designator/Name:  Old Designator=P2-20 Old Name=11 New Designator =4 New Name=6

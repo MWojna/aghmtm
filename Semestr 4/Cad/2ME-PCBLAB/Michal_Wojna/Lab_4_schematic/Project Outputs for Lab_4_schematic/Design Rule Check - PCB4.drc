@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\micha\Desktop\Git\aghmtm\Semestr 4\Cad\2ME-PCBLAB\Michal_Wojna\Lab_3_schematic\PCB2.PcbDoc
-Date     : 21.05.2026
-Time     : 11:35:26
+PCB File : C:\Users\micha\Desktop\Git\aghmtm\Semestr 4\Cad\2ME-PCBLAB\Michal_Wojna\Lab_4_schematic\PCB4.PcbDoc
+Date     : 19.05.2026
+Time     : 15:31:27
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -43,7 +43,8 @@ Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
 Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
-Rule Violations :0
+   Violation between Silk To Silk Clearance Constraint: (8.811mil < 10mil) Between Text "C2_U_lab3_analog_input1" (2928.063mil,2675.455mil) on Top Overlay And Track (2917.244mil,2665.197mil)(2917.244mil,2814.803mil) on Top Overlay Silk Text to Silk Clearance [8.811mil]
+Rule Violations :1
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
@@ -58,6 +59,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 1
 Waived Violations : 0
 Time Elapsed        : 00:00:01

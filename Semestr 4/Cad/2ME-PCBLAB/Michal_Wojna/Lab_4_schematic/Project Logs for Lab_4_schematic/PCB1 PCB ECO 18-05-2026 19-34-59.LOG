@@ -1,0 +1,32 @@
+Added Component: Designator=D1(SMC)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "DO-214-AB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DO-214-AB/SMC; 2 C-Bend Leads; Body 7.9 x 5.9 mm, inc. leads (LxW)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SMC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Sep-1996"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component: Footprint Not Found LT-MS8-8_L
+Add component: Footprint Not Found LT-MS8-8_L
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D1-2
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-1
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-2
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-3
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-4
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-5
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-6
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-7
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-8
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-1
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-2
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-3
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-4
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-5
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-6
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-7
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-8
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component D1 Diode
+Add Class Member: Failed to add class member : Component U1_U_lab3_analog_input1 (U1) LTC1992IMS8
+Add Class Member: Failed to add class member : Component U1_U_lab3_analog_input2 (U1) LTC1992IMS8

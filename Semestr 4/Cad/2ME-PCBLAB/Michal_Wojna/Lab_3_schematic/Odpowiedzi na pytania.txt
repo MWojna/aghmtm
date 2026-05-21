@@ -1,0 +1,49 @@
+Odpowiedzi na pytania
+Zad.5g
+Błąd:
+Porty wyjściowe OUT_P i OUT_N nie są fizycznie połączone z siecią
+Niezgodność:
+Pomylono wyście odwracające z nieodwracającym.
+Zad.5h
+Wzmacniacz: LTC1992IMS8 – wzmacniacz napięcia różnicowego.
+Wzmocnienie:
+Kv=R1/R2+R4/R3
+Dla wartości ze schematu:
+Kv=200
+Wzmacniacz został wykorzystany optymalnie.
+Zad.6
+Z dokumentacji ATmega128:
+Tryb różnicowy dostępny dla par:
+ADC0–ADC1
+ADC2–ADC3
+ADC4–ADC5
+ADC6–ADC7
+Wzmacniacz programowalny (gain >1) dostępny dla par:
+ADC0 – ADC1
+ADC2 – ADC3
+ADC4 – ADC5
+Ustawienia multipleksera dla wzmocnienia ×20:
+1. MUX = 0b00001 -> ADC0 – ADC1
+2. MUX = 0b00011 -> ADC2 – ADC3
+3. MUX = 0b00101 -> ADC4 – ADC5
+Zad.7
+Tak, gdy pozwala na to dokumentacja układu. Niektóre piny, np. nieużywane I/O, mogą pozostać niepodłączone. W pozostałych przypadkach stosuje się dyrektywę No ERC.
+Zad.7j
+Dyrektywa NO ERC wyłącza ostrzeżenia i błędy dla wskazanego węzła.
+Zad.7k
+TDI
+TDO
+TCK
+TMS
+RESET
+VCC
+GND
+Zad.8d
+𝑅 = (5-2)/10m = 300
+Moc:
+𝑃 = 𝐼^2 * 𝑅 = (0.01)^2 * 330 = 0.033
+Dopuszczalna moc w obudowie 0603: max 0.1W -> Rezystor jest odpowiedni
+Zad.8l
+Nie zawsze. To ostrzeżenie, które informuje, że jedna sieć została oznaczona więcej niż jedną nazwą.
+Zad.9
+Tak, pin swapping wpływa na schemat może być niebezpieczny gdy ktoś wykorzysta pinswappping na mikrokontrolerze.

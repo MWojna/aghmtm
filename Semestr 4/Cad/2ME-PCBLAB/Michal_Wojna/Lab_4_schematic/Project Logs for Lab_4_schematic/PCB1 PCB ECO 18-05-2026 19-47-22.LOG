@@ -1,0 +1,84 @@
+Change Component Footprint: Designator=U2 Old Footprint=64A_M New Footprint=64A_M
+Add component: Footprint Not Found LT-MS8-8_L
+Add component: Footprint Not Found LT-MS8-8_L
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-1
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-2
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-3
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-4
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-5
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-6
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-7
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input1-8
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-1
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-2
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-3
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-4
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-5
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-6
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-7
+Add Pin To Net: Unknown Pin: Pin U1_U_lab3_analog_input2-8
+Added Pin To Net: NetName=\R\E\S\E\T\ Pin=U2-20
+Added Pin To Net: NetName=5V0 Pin=U2-21
+Added Pin To Net: NetName=GND Pin=U2-22
+Added Pin To Net: NetName=NetR5_2 Pin=U2-31
+Added Pin To Net: NetName=PC0 Pin=U2-35
+Added Pin To Net: NetName=PC1 Pin=U2-36
+Added Pin To Net: NetName=PC2 Pin=U2-37
+Added Pin To Net: NetName=PC3 Pin=U2-38
+Added Pin To Net: NetName=PC4 Pin=U2-39
+Added Pin To Net: NetName=PC5 Pin=U2-40
+Added Pin To Net: NetName=PC6 Pin=U2-41
+Added Pin To Net: NetName=PC7 Pin=U2-42
+Added Pin To Net: NetName=PA3 Pin=U2-48
+Added Pin To Net: NetName=PA2 Pin=U2-49
+Added Pin To Net: NetName=PA1 Pin=U2-50
+Added Pin To Net: NetName=PA0 Pin=U2-51
+Added Pin To Net: NetName=5V0 Pin=U2-52
+Added Pin To Net: NetName=GND Pin=U2-53
+Added Pin To Net: NetName=TDI Pin=U2-54
+Added Pin To Net: NetName=TDO Pin=U2-55
+Added Pin To Net: NetName=TMS Pin=U2-56
+Added Pin To Net: NetName=TCK Pin=U2-57
+Added Pin To Net: NetName=ADC2_N Pin=U2-58
+Added Pin To Net: NetName=OUT_P2 Pin=U2-59
+Added Pin To Net: NetName=ADC1_N Pin=U2-60
+Added Pin To Net: NetName=OUT_P1 Pin=U2-61
+Added Pin To Net: NetName=5V0 Pin=U2-62
+Added Pin To Net: NetName=GND Pin=U2-63
+Added Pin To Net: NetName=5V0 Pin=U2-64
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component C1_U_lab3_analog_input1 (C1) 10n
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component C1_U_lab3_analog_input2 (C1) 10n
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component C2_U_lab3_analog_input1 (C2) 100n
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component C2_U_lab3_analog_input2 (C2) 100n
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component C3 *
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component C4 *
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component CP1 *
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component D1 Diode
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component P1_U_lab3_analog_input1 (P1) COAX-M
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component P1_U_lab3_analog_input2 (P1) COAX-M
+Added Member To Class: ClassName=lab3_schematic Member=Component P2 SAMTEC LSEM 40-pin
+Added Member To Class: ClassName=lab3_schematic Member=Component P3 Header 5X2
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component R1_U_lab3_analog_input1 (R1) Rfb
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component R1_U_lab3_analog_input2 (R1) Rfb
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component R2_U_lab3_analog_input1 (R2) Rin
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component R2_U_lab3_analog_input2 (R2) Rin
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component R3_U_lab3_analog_input1 (R3) Rin
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component R3_U_lab3_analog_input2 (R3) Rin
+Added Member To Class: ClassName=U_lab3_analog_input1 Member=Component R4_U_lab3_analog_input1 (R4) Rfb
+Added Member To Class: ClassName=U_lab3_analog_input2 Member=Component R4_U_lab3_analog_input2 (R4) Rfb
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component R5 10k
+Add Class Member: Failed to add class member : Component U1_U_lab3_analog_input1 (U1) LTC1992IMS8
+Add Class Member: Failed to add class member : Component U1_U_lab3_analog_input2 (U1) LTC1992IMS8
+Added Member To Class: ClassName=U_lab3_microprocessor Member=Component U2 ATmega128-16AU
+Added Member To Class: ClassName=OUT_N[1..2] Member=Element[0]: OUT_N
+Added Member To Class: ClassName=OUT_N[1..2] Member=Element[1]: OUT_N
+Added Member To Class: ClassName=OUT_P[1..2] Member=Element[0]: OUT_P
+Added Member To Class: ClassName=OUT_P[1..2] Member=Element[1]: OUT_P
+Added Member To Class: ClassName=PC[0..7] Member=Element[0]: PC
+Added Member To Class: ClassName=PC[0..7] Member=Element[1]: PC
+Added Member To Class: ClassName=PC[0..7] Member=Element[2]: PC
+Added Member To Class: ClassName=PC[0..7] Member=Element[3]: PC
+Added Member To Class: ClassName=PC[0..7] Member=Element[4]: PC
+Added Member To Class: ClassName=PC[0..7] Member=Element[5]: PC
+Added Member To Class: ClassName=PC[0..7] Member=Element[6]: PC
+Added Member To Class: ClassName=PC[0..7] Member=Element[7]: PC
