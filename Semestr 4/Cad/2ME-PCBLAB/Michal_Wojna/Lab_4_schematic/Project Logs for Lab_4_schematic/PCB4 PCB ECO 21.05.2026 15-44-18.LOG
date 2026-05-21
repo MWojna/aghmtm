@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=DIN_N Pin=P2-31
+Added Pin To Net: NetName=DIN_P Pin=P2-33
+Added Pin To Net: NetName=DOUT_N Pin=P2-37
+Added Pin To Net: NetName=RXD0 Pin=U2-2
+Added Pin To Net: NetName=TXD0 Pin=U2-3
+Added Pin To Net: NetName=TX_EN Pin=U2-45
+Added Pin To Net: NetName=DOUT_P Pin=U3-12
+Added Pin To Net: NetName=R\X\_\E\N\ Pin=U2-46
+Added Pin To Net: NetName=R\X\_\E\N\ Pin=U3-8
+Added Net: Name=R\X\_\E\N\
+Added Differential Pair: Name=DIN
+Added Differential Pair: Name=DOUT

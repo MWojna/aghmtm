@@ -1,0 +1,68 @@
+Change Component Footprint: Designator=U2 Old Footprint=64A_M New Footprint=64A_M
+Change Component Designator: OldDesignator=C1_U_lab3_analog_input1 NewDesignator=C1_U_lab4_analog_input1
+Change Component Designator: OldDesignator=C1_U_lab3_analog_input2 NewDesignator=C1_U_lab4_analog_input2
+Change Component Designator: OldDesignator=C2_U_lab3_analog_input1 NewDesignator=C2_U_lab4_analog_input1
+Change Component Designator: OldDesignator=C2_U_lab3_analog_input2 NewDesignator=C2_U_lab4_analog_input2
+Change Component Designator: OldDesignator=P1_U_lab3_analog_input1 NewDesignator=P1_U_lab4_analog_input1
+Change Component Designator: OldDesignator=P1_U_lab3_analog_input2 NewDesignator=P1_U_lab4_analog_input2
+Change Component Designator: OldDesignator=R1_U_lab3_analog_input1 NewDesignator=R1_U_lab4_analog_input1
+Change Component Designator: OldDesignator=R1_U_lab3_analog_input2 NewDesignator=R1_U_lab4_analog_input2
+Change Component Designator: OldDesignator=R2_U_lab3_analog_input1 NewDesignator=R2_U_lab4_analog_input1
+Change Component Designator: OldDesignator=R2_U_lab3_analog_input2 NewDesignator=R2_U_lab4_analog_input2
+Change Component Designator: OldDesignator=R3_U_lab3_analog_input1 NewDesignator=R3_U_lab4_analog_input1
+Change Component Designator: OldDesignator=R3_U_lab3_analog_input2 NewDesignator=R3_U_lab4_analog_input2
+Change Component Designator: OldDesignator=R4_U_lab3_analog_input1 NewDesignator=R4_U_lab4_analog_input1
+Change Component Designator: OldDesignator=R4_U_lab3_analog_input2 NewDesignator=R4_U_lab4_analog_input2
+Change Component Designator: OldDesignator=U1_U_lab3_analog_input1 NewDesignator=U1_U_lab4_analog_input1
+Change Component Designator: OldDesignator=U1_U_lab3_analog_input2 NewDesignator=U1_U_lab4_analog_input2
+Added Component: Designator=U3(PW0014A_L)
+Add component (AddParameter): Name = "Code_IPC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-153-AB-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=DS90LV019&fileType=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CompType"; Value = "Interface IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "High-Reliability"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Molded TSSOP, JEDEC, 5 x 4.4 x 0.9mm Body, 14 Lead, 0.65mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PW0014A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageTopMarking"; Value = "NSZXYTT*LV019T*MTC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PinCount"; Value = "14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerWise"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "N"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=5V0 Pin=U3-14
+Change Net Name : Old Net Name=IN_U_lab3_analog_input1 New Net Name=IN_U_lab4_analog_input1
+Change Net Name : Old Net Name=IN_U_lab3_analog_input2 New Net Name=IN_U_lab4_analog_input2
+Change Net Name : Old Net Name=NetC1_U_lab3_analog_input1_2 New Net Name=NetC1_U_lab4_analog_input1_2
+Change Net Name : Old Net Name=NetC1_U_lab3_analog_input2_2 New Net Name=NetC1_U_lab4_analog_input2_2
+Change Net Name : Old Net Name=NetR1_U_lab3_analog_input1_1 New Net Name=NetR1_U_lab4_analog_input1_1
+Change Net Name : Old Net Name=NetR1_U_lab3_analog_input2_1 New Net Name=NetR1_U_lab4_analog_input2_1
+Change Net Name : Old Net Name=NetR3_U_lab3_analog_input1_2 New Net Name=NetR3_U_lab4_analog_input1_2
+Change Net Name : Old Net Name=NetR3_U_lab3_analog_input2_2 New Net Name=NetR3_U_lab4_analog_input2_2
+Added Pin To Net: NetName=DIN_N Pin=U3-9
+Added Net: Name=DIN_N
+Add Net: Net with name "DIN_N" already exists
+Added Pin To Net: NetName=DIN_P Pin=U3-10
+Added Net: Name=DIN_P
+Add Net: Net with name "DIN_P" already exists
+Added Pin To Net: NetName=DOUT_N Pin=U3-11
+Added Net: Name=DOUT_N
+Add Net: Net with name "DOUT_N" already exists
+Added Pin To Net: NetName=DOUT_P Pin=P2-39
+Added Net: Name=DOUT_P
+Add Net: Net with name "DOUT_P" already exists
+Added Pin To Net: NetName=RX_EN Pin=U3-8
+Added Net: Name=RX_EN
+Added Pin To Net: NetName=RXD0 Pin=U3-4
+Added Net: Name=RXD0
+Added Pin To Net: NetName=TX_EN Pin=U3-1
+Added Net: Name=TX_EN
+Added Pin To Net: NetName=TXD0 Pin=U3-2
+Added Net: Name=TXD0
+Change Class Name : Old Net Name=lab3_schematic New Net Name=lab4_schematic
+Change Class Name : Old Net Name=U_lab3_analog_input1 New Net Name=U_lab4_analog_input1
+Change Class Name : Old Net Name=U_lab3_analog_input2 New Net Name=U_lab4_analog_input2
+Change Class Name : Old Net Name=U_lab3_microprocessor New Net Name=U_lab4_microprocessor
+Added Class: Name=lab4_analog_input
+Added Member To Class: ClassName=U_lab4_microprocessor Member=Component U3 DS90LV019TMTC
