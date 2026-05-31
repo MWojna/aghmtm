@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=BUS4 Pin=U2-48
+Removed Pin From Net: NetName=BUS3 Pin=U2-49
+Removed Pin From Net: NetName=BUS2 Pin=U2-50
+Removed Pin From Net: NetName=BUS1 Pin=U2-51
+Added Pin To Net: NetName=BUS7 Pin=P2-25
+Added Pin To Net: NetName=BUS6 Pin=P2-27
+Added Pin To Net: NetName=BUS5 Pin=P2-29
+Added Pin To Net: NetName=BUS4 Pin=P2-31
+Added Pin To Net: NetName=BUS3 Pin=P2-33
+Added Pin To Net: NetName=BUS2 Pin=P2-35
+Added Pin To Net: NetName=BUS1 Pin=P2-37
+Added Pin To Net: NetName=GND Pin=P3-2
+Added Pin To Net: NetName=5V0 Pin=P3-4
+Added Pin To Net: NetName=TMS Pin=P3-5
+Added Pin To Net: NetName=RESET Pin=P3-6
+Added Pin To Net: NetName=TDI Pin=P3-9
+Added Pin To Net: NetName=GND Pin=P3-10
+Added Pin To Net: NetName=BUS3 Pin=U2-48
+Added Pin To Net: NetName=BUS2 Pin=U2-49
+Added Pin To Net: NetName=BUS1 Pin=U2-50
+Change Net Name : Old Net Name=RESET New Net Name=R\E\S\E\T\
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 110)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 110, 255)
+Added Pin To Net: NetName=BUS0 Pin=P2-39
+Added Pin To Net: NetName=BUS0 Pin=U2-51
+Added Net: Name=BUS0
+Added Class: Name=BUS[0..7]
+Added Member To Class: ClassName=Schemat_top Member=Component P3 Header 5X2
+Added Room: Name=Schemat_top
+Added Room: Name=U_Processor
