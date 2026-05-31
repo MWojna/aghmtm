@@ -1,0 +1,114 @@
+Added Component: Designator=C1(VJ_Tantalum_A)
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "VJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "293D223X9016D2TE3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P1(HDR1X4)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P2(LSEM-120-03.0-L-DV-A-N-K-TR)
+Add component (AddParameter): Name = "helpurl"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LSEM-120-03.0-L-DV-A-N-K-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2433813"; VariantName = "[No Variations]"
+Added Component: Designator=P3(HDR2X5)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P4(HDR1X4)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=U2(64A_N)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-026-AEB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.atmel.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "ATmega128(L) Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.atmel.com/dyn/resources/prod_documents/doc2467.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "ATmega128(L) Summary"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.atmel.com/dyn/resources/prod_documents/2467S.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "revX, Jun-2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "64-Pin Plastic Thin Profile Quad Flat Pack, 14 x 14 x 1.0 mm Body, 0.8 mm Pitch (TQFP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "64A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "revC, Oct-2010"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V0 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=5V0 Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=BUS7 Pin=P2-25
+Added Pin To Net: NetName=BUS6 Pin=P2-27
+Added Pin To Net: NetName=BUS5 Pin=P2-29
+Added Pin To Net: NetName=BUS4 Pin=P2-31
+Added Pin To Net: NetName=BUS3 Pin=P2-33
+Added Pin To Net: NetName=BUS2 Pin=P2-35
+Added Pin To Net: NetName=BUS1 Pin=P2-37
+Added Pin To Net: NetName=TCK Pin=P3-1
+Added Pin To Net: NetName=GND Pin=P3-2
+Added Pin To Net: NetName=TDO Pin=P3-3
+Added Pin To Net: NetName=5V0 Pin=P3-4
+Added Pin To Net: NetName=TMS Pin=P3-5
+Added Pin To Net: NetName=RESET Pin=P3-6
+Added Pin To Net: NetName=TDI Pin=P3-9
+Added Pin To Net: NetName=GND Pin=P3-10
+Added Pin To Net: NetName=GND Pin=P4-1
+Added Pin To Net: NetName=GND Pin=P4-2
+Added Pin To Net: NetName=5V0 Pin=P4-3
+Added Pin To Net: NetName=5V0 Pin=P4-4
+Added Pin To Net: NetName=RESET Pin=U2-20
+Added Pin To Net: NetName=5V0 Pin=U2-21
+Added Pin To Net: NetName=GND Pin=U2-22
+Added Pin To Net: NetName=BUS7 Pin=U2-44
+Added Pin To Net: NetName=BUS6 Pin=U2-45
+Added Pin To Net: NetName=BUS5 Pin=U2-46
+Added Pin To Net: NetName=BUS4 Pin=U2-47
+Added Pin To Net: NetName=BUS3 Pin=U2-48
+Added Pin To Net: NetName=BUS2 Pin=U2-49
+Added Pin To Net: NetName=BUS1 Pin=U2-50
+Added Pin To Net: NetName=5V0 Pin=U2-52
+Added Pin To Net: NetName=GND Pin=U2-53
+Added Pin To Net: NetName=TDI Pin=U2-54
+Added Pin To Net: NetName=TDO Pin=U2-55
+Added Pin To Net: NetName=TMS Pin=U2-56
+Added Pin To Net: NetName=TCK Pin=U2-57
+Added Pin To Net: NetName=5V0 Pin=U2-62
+Added Pin To Net: NetName=GND Pin=U2-63
+Added Pin To Net: NetName=5V0 Pin=U2-64
+Change Net Name : Old Net Name=RESET New Net Name=R\E\S\E\T\
+Added Pin To Net: NetName=BUS0 Pin=P2-39
+Added Pin To Net: NetName=BUS0 Pin=U2-51
+Added Net: Name=BUS0
+Added Pin To Net: NetName=out1 Pin=P2-40
+Added Pin To Net: NetName=out1 Pin=U2-41
+Added Net: Name=out1
+Added Pin To Net: NetName=out2 Pin=P2-36
+Added Pin To Net: NetName=out2 Pin=U2-42
+Added Net: Name=out2
+Added Pin To Net: NetName=output1_N Pin=P1-4
+Added Pin To Net: NetName=output1_N Pin=U2-10
+Added Net: Name=output1_N
+Added Pin To Net: NetName=output1_P Pin=P1-3
+Added Pin To Net: NetName=output1_P Pin=U2-11
+Added Net: Name=output1_P
+Added Pin To Net: NetName=output2_N Pin=P1-2
+Added Pin To Net: NetName=output2_N Pin=U2-12
+Added Net: Name=output2_N
+Added Pin To Net: NetName=output2_P Pin=P1-1
+Added Pin To Net: NetName=output2_P Pin=U2-13
+Added Net: Name=output2_P
+Added Class: Name=BUS[0..7]
+Added Member To Class: ClassName=U_Processor Member=Component C1 22u
+Added Member To Class: ClassName=Schemat_top Member=Component P1 Header 4
+Added Member To Class: ClassName=Schemat_top Member=Component P2 SAMTEC LSEM 40-pin
+Added Member To Class: ClassName=Schemat_top Member=Component P3 Header 5X2
+Added Member To Class: ClassName=Schemat_top Member=Component P4 Header 4
+Added Member To Class: ClassName=U_Processor Member=Component U2 ATmega128-16AU
+Added Room: Name=Schemat_top
+Added Room: Name=U_Processor
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
