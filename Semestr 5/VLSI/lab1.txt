@@ -1,0 +1,15 @@
+Zad 1.0
+2 rezystory
+W = 19.1u
+L = 2u
+r = 99.83
+
+
+
+Zad 1.1
+kv = -26.35
+vin = 450.37m, by vout = 0.9c
+wzmocnienie w ^ pkt = -18.87
+IDM1 w ^ pkt = 13.99u
+fg w ^ pkt = 144.88MHz
+biore pod uwagę cgs = -14.62f i -5.62f
