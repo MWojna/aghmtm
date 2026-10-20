@@ -1,0 +1,68 @@
+Change Component Designator: OldDesignator=P3 NewDesignator=P4
+Change Component Designator: OldDesignator=P? NewDesignator=P2
+Change component parameters: Designator = "P1" ("P1"); Footprint = "HDR1X4"; UniqueID = "\UOIGUWDJ" ("\UOIGUWDJ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P3" ("P3"); Footprint = "HDR1X4"; UniqueID = "\GLBCKRRU" ("\GLBCKRRU")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P3" ("P3"); Footprint = "HDR2X5"; UniqueID = "\NMGIMLXP" ("\NMGIMLXP")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P?" ("P?"); Footprint = "LSEM-120-03.0-L-DV-A-N-K-TR"; UniqueID = "\AOWCUHUK" ("\AOWCUHUK")
+Change component parameters (AddParameter): Name = "helpurl"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacture"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LSEM-120-03.0-L-DV-A-N-K-TR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2433813"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2" ("U2"); Footprint = "64A_N"; UniqueID = "\TJVNXBYG\QTHBTKCU" ("\TJVNXBYG\QTHBTKCU")
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "MS-026-AEB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.atmel.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "ATmega128(L) Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.atmel.com/dyn/resources/prod_documents/doc2467.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "ATmega128(L) Summary"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.atmel.com/dyn/resources/prod_documents/2467S.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "revX, Jun-2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "64-Pin Plastic Thin Profile Quad Flat Pack, 14 x 14 x 1.0 mm Body, 0.8 mm Pitch (TQFP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "64A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "revC, Oct-2010"; VariantName = "[No Variations]"
+Added Component: Designator=C1(VJ_Tantalum_A)
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "VJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "293D223X9016D2TE3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Number"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=VCC Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=TCK Pin=P3-1
+Added Pin To Net: NetName=TDO Pin=P3-3
+Added Pin To Net: NetName=GND Pin=P4-1
+Added Pin To Net: NetName=GND Pin=P4-2
+Added Pin To Net: NetName=VCC Pin=P4-3
+Added Pin To Net: NetName=VCC Pin=P4-4
+Added Pin To Net: NetName=GND Pin=U2-22
+Added Pin To Net: NetName=VCC Pin=U2-52
+Added Pin To Net: NetName=GND Pin=U2-53
+Change Net Name : Old Net Name=CONTROL1 New Net Name=out1
+Change Net Name : Old Net Name=CONTROL2 New Net Name=out2
+Change Net Name : Old Net Name=VCC New Net Name=5V0
+Add Net: Net with name "BUS1" already exists
+Add Net: Net with name "BUS2" already exists
+Add Net: Net with name "BUS3" already exists
+Add Net: Net with name "BUS4" already exists
+Add Net: Net with name "BUS5" already exists
+Add Net: Net with name "BUS6" already exists
+Add Net: Net with name "BUS7" already exists
+Added Member To Class: ClassName=U_Processor Member=Component C1 22u
+Added Member To Class: ClassName=Schemat_top Member=Component P4 Header 4
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1

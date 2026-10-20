@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 Record=TopLevelDocument|FileName=Schemat_top.SchDoc|SheetNumber= 
 Record=SheetSymbol|SourceDocument=Schemat_top.SchDoc|Designator=U_Processor|SchDesignator=U_Processor|FileName=Processor.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=Processor.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+=======
+Record=TopLevelDocument|FileName=Schemat_top.SchDoc|SheetNumber= 
+Record=SheetSymbol|SourceDocument=Schemat_top.SchDoc|Designator=U_Processor|SchDesignator=U_Processor|FileName=Processor.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=Processor.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+>>>>>>> a2d53b7e9a4e98fdaa816d5882bde46bde9e6d9d

@@ -1,0 +1,9 @@
+UEC2 AI voiceover
+
+przygotować film demonstrujący działanie programu; film powinien być krótki (1-2 minuty), i zawierać
+odniesienie do kierunku MTM oraz strony www.mtm.agh.edu.pl; link do filmu umieszczonego
+w chmurze należy umieścić w raporcie,
+
+​Twelve Gejż Gamble jest naszym odwzorowaniem Buckshot Roulette na projekt z układow elektroniki cyfrowej dwa na kierunku mikroelektronika w technice I medycynie na A G H. W menu głównym, po naciśnięciu przycisku rules na ekranie gracza wyświetlają sie zasady rozgrywki. Gdy obaj gracze nacisną przycisk start, gra sie rozpoczyna. 
+Gracze na swoich ekranach widzą swoją postać wraz z przedmiotami i punktami zdrowia na dole ekranu, a postać przeciwnika z ich przedmiotami i punktami zdrowia wyświetla się na górze ekranu. Wszystko jest ze sobą synchronizowane między płytkami poprzez protokół ułart. Każde ładowanie strzelby jest przypadkowe I gracze nie wiedzą czy nastepny pocisk będzie ostry czy ślepy. Napis po prawej informuje graczy o obecnym wyniku, I czyja obecnie jest tura. We własnej turze gracz moze używać przedmiotow I wbyrać czy chce strzelić do siebię, by mieć szanse na otrzymanie kolejnej tury, bądź strzelić do przeciwnika i przekazać mu turę. 
+Przedmioty pozwalają graczom odzyskać jeden punkt zdrowia, następnym pociskiem zadać podwójne obrażenia, podejrzeć nastepny pocisk w lufie, wyrzucić z lufy następny pocisk albo zablokować następną turę przeciwnika. Przedmioty również są dobierane przypadkowo w każdej rozgrywce i rundzie. Z każdą rundą zwiększa się ilość punktów zdrowia graczy, oraz ilość dostępnych dla nich przedmiotów. Gra konczy sie gdy jeden z graczy wygra 2 rundy. Po zakończeniu rozgrywki, nacisniecie lewego przycisku myszy przywraca graczy do menu glownego.
