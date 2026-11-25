@@ -1,5 +1,4 @@
 Zad 1.2
-
 Parameters: L_DAC=180n, W_DAC=240n, i_dac=100n
 VGS = -1.8
 VTH = -488.9m
@@ -20,3 +19,82 @@ VGS = -1.8
 VTH = -467.6m
 
 Zad 1.8
+Test 	Name 	Yield 		Min 	Target 	Max 	Mean 	Std Dev 	Errors
+Yield Estimate: 100 %(100 passed/100 pts) | Parameters: L_DAC=180e-9,W_DAC=240e-9,i_dac=100n									
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-610m	info	-369.3m	-487.5m	46m		0
+	IDC	100% (100/100)	72.87n	info	124.4n	100.1n	8.857n		0
+Yield Estimate: 100 %(100 passed/100 pts) | Parameters: L_DAC=180e-9,W_DAC=240e-9,i_dac=10u									
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-609.3m	info	-368.6m	-486.8m	46m		0
+	IDC	100% (100/100)	7.337u	info	12.34u	10.01u	866.1n		0
+Yield Estimate: 100 %(100 passed/100 pts) | Parameters: L_DAC=2e-6,W_DAC=5e-6,i_dac=100n									
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-490.1m	info	-473.6m	-481.7m	3.15m		0
+	IDC	100% (100/100)	97.94n	info	102n	100n	668.8p		0
+Yield Estimate: 100 %(100 passed/100 pts) | Parameters: L_DAC=2e-6,W_DAC=5e-6,i_dac=10u									
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-490.1m	info	-473.6m	-481.7m	3.15m		0
+	IDC	100% (100/100)	9.793u	info	10.2u	10u	67.14n		0
+Yield Estimate: 100 %(100 passed/100 pts) | Parameters: L_DAC=5e-6,W_DAC=2e-6,i_dac=100n									
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-475.9m	info	-459.4m	-467.5m	3.15m		0
+	IDC	100% (100/100)	97.88n	info	102n	100n	687.4p		0
+Yield Estimate: 100 %(100 passed/100 pts) | Parameters: L_DAC=5e-6,W_DAC=2e-6,i_dac=10u									
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-475.9m	info	-459.4m	-467.5m	3.15m		0
+	IDC	100% (100/100)	9.777u	info	10.2u	10u	71.95n		0
+
+Zad 1.9
+a)
+
+b)
+
+c)
+
+Zad 1.10
+a)
+Test 	Name 	Yield 		Min 	Target 	Max 	Mean 	Std Dev 	Errors
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-475.9m	info	-459.4m	-467.5m	3.15m		0
+	IDC	100% (100/100)	9.777u	info	10.2u	10u	71.95n		0
+b)
+Test 	Name 	Yield 		Min 	Target 	Max 	Mean 	Std Dev 	Errors
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-467.6m	info	-467.6m	-467.6m	0		0
+	IDC	100% (100/100)	9.8u	info	10.23u	9.999u	72n		0
+c)
+Test 	Name 	Yield 		Min 	Target 	Max 	Mean 	Std Dev 	Errors
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-475.4m	info	-458.7m	-467.5m	3.149m		0
+	IDC	100% (100/100)	9.723u	info	10.32u	9.995u	97.49n		0
+
+Zad 1.11
+a)
+Test 	Name 	Yield 		Min 	Target 	Max 	Mean 	Std Dev 	Errors
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-604.2m	info	-333.5m	-470.3m	78.12m		0
+	IDC	100% (100/100)	9.763u	info	10.21u	10u	72.92n		0
+b)
+Test 	Name 	Yield 		Min 	Target 	Max 	Mean 	Std Dev 	Errors
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-601.2m	info	-333.3m	-470.4m	77.96m		0
+	IDC	100% (100/100)	9.798u	info	10.24u	9.999u	73.01n		0
+c)
+Test 	Name 	Yield 		Min 	Target 	Max 	Mean 	Std Dev 	Errors
+DAC_I_DAC_1									
+	VGS	100% (100/100)	-1.8	info	-1.8	-1.8	0		0
+	VTH	100% (100/100)	-602.6m	info	-333.8m	-470.3m	77.67m		0
+	IDC	100% (100/100)	9.721u	info	10.35u	9.996u	99.78n		0
+
