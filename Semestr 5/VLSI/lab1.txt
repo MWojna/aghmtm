@@ -17,13 +17,30 @@ biore pod uwagę cgs = -14.62f i -5.62f
 
 
 Zad 1.2
-fd = 450kHz
+fd = 450kHz (real 445k)
 R1 = 235.79k
-Pr1 = 3.38pm^2
+Pr1 =
 R2 = 707.36k
-Pr2 = 1.15pm^2
-Ptot = 22.68pm^2
+Pr2 =
+Ptot =
 
 
 
 Zad 1.3
+
+
+
+Zad 2.1
+RNHR1000_MM - NWELL/PPLUS/SAB/HR/PO1/CONT/ME1/IPWM/ACL/PSYMBOL/SYMBOL
+
+
+
+Zad 2.4
+ME1 - 240n
+ME2 - 280n
+ME4 - 280n
+ME6 - 1.2u
+
+pytanie 6
+A_1=W_1*L_1
+R_DS=1/A

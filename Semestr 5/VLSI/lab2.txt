@@ -1,0 +1,22 @@
+Zad 1.2
+
+Parameters: L_DAC=180n, W_DAC=240n, i_dac=100n
+VGS = -1.8
+VTH = -488.9m
+Parameters: L_DAC=180n, W_DAC=240n, i_dac=10u
+VGS = -1.8
+VTH = -488.2m
+Parameters: L_DAC=2u, W_DAC=5u, i_dac=100n
+VGS = -1.8
+VTH = -481.8m
+Parameters: L_DAC=2u, W_DAC=5u, i_dac=10u
+VGS = -1.8
+VTH = -481.8m
+Parameters: L_DAC=5u, W_DAC=2u, i_dac=100n
+VGS = -1.8
+VTH = -467.6m
+Parameters: L_DAC=5u, W_DAC=2u, i_dac=10u
+VGS = -1.8
+VTH = -467.6m
+
+Zad 1.8
